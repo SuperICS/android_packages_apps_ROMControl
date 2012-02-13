@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.os.SystemProperties;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -40,6 +41,15 @@ public class Performance extends SettingsPreferenceFragment implements
     private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
     private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
     private static final String SCROLLINGCACHE_DEFAULT = "1";
+
+    private static final String USE_DITHERING_PREF = "pref_use_dithering";
+    private static final String USE_DITHERING_PERSIST_PROP = "persist.sys.use_dithering";
+    private static final String USE_DITHERING_DEFAULT = "1";
+    private static final String USE_16BPP_ALPHA_PREF = "pref_use_16bpp_alpha";
+    private static final String USE_16BPP_ALPHA_PROP = "persist.sys.use_16bpp_alpha";
+
+    private CheckBoxPreference mUseDitheringPref;
+    private CheckBoxPreference mUse16bppAlphaPref;
 
     private String[] ALL_GOV;
     private int[] SPEED_STEPS;
@@ -119,6 +129,25 @@ public class Performance extends SettingsPreferenceFragment implements
         }
 
         doneLoading = true;
+
+      if (getPreferenceManager() != null) {
+
+            //addPreferencesFromResource(R.xml.performance);
+
+            PreferenceScreen prefSet = getPreferenceScreen();
+
+            mUseDitheringPref = (CheckBoxPreference) prefSet.findPreference(USE_DITHERING_PREF);
+            mUse16bppAlphaPref = (CheckBoxPreference) prefSet.findPreference(USE_16BPP_ALPHA_PREF);
+
+            String useDithering = SystemProperties.get(USE_DITHERING_PERSIST_PROP,
+                    USE_DITHERING_DEFAULT);
+            mUseDitheringPref.setChecked("1".equals(useDithering));
+
+            String use16bppAlpha = SystemProperties.get(USE_16BPP_ALPHA_PROP, "0");
+            mUse16bppAlphaPref.setChecked("1".equals(use16bppAlpha));
+
+        }
+
     }
 
     @Override
@@ -285,6 +314,23 @@ public class Performance extends SettingsPreferenceFragment implements
         }
 
         return false;
+    }
+
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mUseDitheringPref) {
+            SystemProperties.set(USE_DITHERING_PERSIST_PROP,
+                    mUseDitheringPref.isChecked() ? "1" : "0");
+        } else if (preference == mUse16bppAlphaPref) {
+            SystemProperties.set(USE_16BPP_ALPHA_PROP,
+                    mUse16bppAlphaPref.isChecked() ? "1" : "0");
+        } else {
+            // If we didn't handle it, let preferences handle it.
+            return super.onPreferenceTreeClick(preferenceScreen, preference);
+        }
+
+        return true;
     }
 
 }

@@ -54,6 +54,19 @@
 			android:summary="@string/ps_free_memory_boot" />
 	</PreferenceCategory>
 
+	<PreferenceCategory
+		android:title="@string/prefcat_free_memory">
+	<CheckBoxPreference
+			android:key="pref_use_dithering"
+			android:title="@string/pref_use_dithering_title"
+			android:summary="@string/pref_use_dithering_summary" />
+
+	<CheckBoxPreference
+			android:key="pref_use_16bpp_alpha"
+			android:title="@string/pref_use_16bpp_alpha_title"
+			android:summary="@string/pref_use_16bpp_alpha_summary" />
+	</PreferenceCategory>
+
         <ListPreference android:key="pref_scrollingcache"
                         android:dialogTitle="@string/pref_scrollingcache_title"
                         android:title="@string/pref_scrollingcache_title"
