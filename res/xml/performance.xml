@@ -55,7 +55,7 @@
 	</PreferenceCategory>
 
 	<PreferenceCategory
-		android:title="@string/prefcat_free_memory">
+		android:title="@string/prefcat_tweaks">
 	<CheckBoxPreference
 			android:key="pref_use_dithering"
 			android:title="@string/pref_use_dithering_title"

@@ -235,6 +235,7 @@
 	<!-- Preference Categories -->
 	<string name="prefcat_cpu">Set CPU</string>
 	<string name="prefcat_free_memory">Free Memory</string>
+	<string name="prefcat_tweaks">Advanced</string>
 	<string name="pc_tweaks">Tweaks</string>
 	<string name="pc_init_d">Enable/Disable Tweaks</string>
 	<string name="pc_init_d_tweaks">Customize Tweaks</string>
