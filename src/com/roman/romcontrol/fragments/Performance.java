@@ -42,12 +42,14 @@ public class Performance extends SettingsPreferenceFragment implements
     private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
     private static final String SCROLLINGCACHE_DEFAULT = "1";
 
+    private static final String MEMORY_MANAGEMENT = "memory_management";
     private static final String USE_DITHERING_PREF = "pref_use_dithering";
     private static final String USE_DITHERING_PERSIST_PROP = "persist.sys.use_dithering";
     private static final String USE_DITHERING_DEFAULT = "1";
     private static final String USE_16BPP_ALPHA_PREF = "pref_use_16bpp_alpha";
     private static final String USE_16BPP_ALPHA_PROP = "persist.sys.use_16bpp_alpha";
 
+    private PreferenceScreen mMemoryManagement;
     private CheckBoxPreference mUseDitheringPref;
     private CheckBoxPreference mUse16bppAlphaPref;
 
@@ -136,6 +138,7 @@ public class Performance extends SettingsPreferenceFragment implements
 
             PreferenceScreen prefSet = getPreferenceScreen();
 
+            mMemoryManagement = (PreferenceScreen) prefSet.findPreference(MEMORY_MANAGEMENT);
             mUseDitheringPref = (CheckBoxPreference) prefSet.findPreference(USE_DITHERING_PREF);
             mUse16bppAlphaPref = (CheckBoxPreference) prefSet.findPreference(USE_16BPP_ALPHA_PREF);
 

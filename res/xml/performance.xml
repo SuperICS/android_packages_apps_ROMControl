@@ -56,6 +56,11 @@
 
 	<PreferenceCategory
 		android:title="@string/prefcat_tweaks">
+    <PreferenceScreen
+        android:key="memory_management"
+        android:fragment="com.roman.romcontrol.fragments.MemoryManagement"
+        android:title="@string/memory_management_title"
+        android:summary="@string/memory_management_summary" />
 	<CheckBoxPreference
 			android:key="pref_use_dithering"
 			android:title="@string/pref_use_dithering_title"
@@ -73,4 +78,5 @@
                         android:summary="@string/pref_scrollingcache_summary"
                         android:entries="@array/entries_scrollingcache"
                         android:entryValues="@array/values_scrollingcache" />
+
 </PreferenceScreen>
