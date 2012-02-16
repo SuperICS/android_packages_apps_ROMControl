@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ROM Control</string>
+    <string name="app_name">ROM Control (From AOKP)</string>
 
     <!-- Main -->
     <string name="user_interface">User Interface</string>

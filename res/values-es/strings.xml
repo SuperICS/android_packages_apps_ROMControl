@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Control de ROM</string>
+    <string name="app_name">Control de ROM (Desde AOKP)</string>
 
     <!-- Main -->
     <string name="user_interface">Interfaz de usuario</string>
@@ -15,8 +15,23 @@
     <string name="toggles_layout">Interruptores</string>
     <string name="clock">Reloj</string>
     <string name="battery">Batería</string>
+    <string name="nav_bar">Botones inferiores</string>
+    <string name="tools">Herramientas</string>
+    <string name="weather">Tiempo</string>
     
-    <string name="advanced_settings">Opciones avanzadas</string>
+    <string name="header_summary_battery">Bateria, % bateria mod, etc</string>
+    <string name="header_summary_general_ui">Boot animation, bug mailer, rotacion, cambio teclado, etc</string>
+    <string name="header_summary_navigation_bar">Botones para mostrar, color barra de navegación, orden</string>
+    <string name="header_summary_lockscreens">Aplicaciones personalizadas para lanzar, diseño</string>
+    <string name="header_summary_power_menu">Qué va a mostrar en el menú Power</string>
+    <string name="header_summary_powersaver">Desactivar automáticamente los datos para ahorrar batería</string>
+    <string name="header_summary_led">Cambiar la configuración predeterminada para Android</string>
+    <string name="header_summary_general">Comportamiento de Settings</string>
+    <string name="header_summary_toggles">Botones personalizados</string>
+    <string name="header_summary_clock">Posicion reloj, estilo AM/PM, color</string>
+    <string name="header_summary_weather">Activa/desactiva, tiempo metereologico y el intervalo</string>
+	
+       <string name="advanced_settings">Opciones avanzadas</string>
     <string name="misc_short">Detalles</string>
     
     <!-- Botones inferiores -->
@@ -28,6 +43,20 @@
     <string name="title_pref_navigation_menu_display">Visibilidad de menú</string>
     <string name="summary_pref_navigation_menu_display">¿Cómo y cuándo desea que los botones de menú aparezca?</string>
 
+    <string name="navbar_order_title">Orden de los botones de navegaciónr</string>
+    <string name="navbar_order_summary">Personalizar el orden de las teclas de función</string>
+
+    <string name="enabled_navbar_buttons_title">Activado botones</string>
+    <string name="enabled_navbar_buttons_summary">Elija qué teclas de función que le gustaría ver</string>
+    
+    <string name="button_transparency_title">Transparencia del botón de navegación</string>
+    
+    <string name="long_press_home_title">Acción al mantener Home</string>
+    <string name="long_press_home_summary">Qué hacer cuando mantenga presionado el boton Home. Reinicie para reflejar los cambios.</string>
+    
+    <string name="glow_times_title">Animación de botones</string>
+    <string name="glow_times_summary">Adjust how fast your buttons animate after you touch them. Lowering the speed can improve performance.</string>
+    
     <!-- Opciones visuales -->
     <string name="rotation_animation_delay_title">Velocidad de rotacion</string>
     <string name="rotation_animation_delay_summary">El número de milisegundos para la rotacion de pantalla debe ser estable. Por defecto 200 ms.</string>
@@ -71,9 +100,6 @@
     <string name="title_pref_powersaving_sync_screen_off_delay">Intervalo de sincronización</string>
     <string name="summary_pref_powersaving_sync_screen_off_delay">¿Cuánto tiempo debe esperar entre cada sincronización?</string>
 
-    <string name="title_pref_navigation_layout">Diseño botones inferiores</string>
-    <string name="summary_pref_navigation_layout">Cambiar el diseño requiere un reinicio.</string>
-    
     <string name="powersaver_data_cat">Trafico de datos</string>
     <string name="powersaver_sync_cat">Sincronización</string>
 
@@ -91,10 +117,23 @@
     <string name="title_auto_hide_toggles">Auto ocultar</string>
     <string name="summary_auto_hide_toggles">Despues de la acción se oculta</string>
 
-    <!-- Barra de estado | Batería -->
-    <string name="battery_title_text_widget">Ver nivel de batería</string>
+    <string name="title_status_bar_brightness_toggle">Enable brightness control</string>
+    <string name="summary_status_bar_brightness_toggle">Slide finger slowly across statusbar to adjust brightness setting</string>
+
+    <string name="adb_icon_title">Enable USB debugging icon</string>
+    <string name="adb_icon_summary">Wutang</string>
+
+    <!-- Statusbar | Battery -->
+    <string name="battery_icon">Battery icon style</string>
     <string name="battery_summary_text_widget">@null</string>
-    <string name="battery_title_text_widget_center">Centrar nivel de batería</string>
+    <string name="battery_bar">Battery bar location</string>
+    <string name="battery_bar_color">Battery bar color</string>
+    <string name="battery_bar_cat">Battery bar options</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+    
 
     <!-- Barra de estado | Reloj -->
     <string name="clock_title_enable">Reloj visible</string>
@@ -117,9 +156,170 @@
     <string name="toggles_order_title">Ordenar los interruptores</string>
     <string name="toggles_order_summary">Elegir el orden para mostrarse</string>
     <string name="brightness_location_title">Localización del brillo</string>
+    
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Presiona color para aplicar</string>   
+    <string name="arrow_right">→</string> 
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Set</string>
+    <string name="ics_color">!!!</string>
     
+    <!-- Shortcut picker -->
+    <string name="use_custom_app_title">Use custom application</string>
+	<string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
+	<string name="select_custom_app_title">Select custom application</string>
+	<string name="group_applications">Applications</string>
+	
+	<!-- Weather -->
+	<string name="weather_enable">Enable weather</string>
+	<string name="weather_enable_summary">Whether to pull weather information and display it throughout the ROM.</string>
+	<string name="weather_use_custom_location">Use custom location</string>
+	<string name="weather_use_custom_location_summary">Setting a custom location can save some battery. Otherwise network-location is used to determine your location.</string>
+	<string name="weather_custom_location_dialog_title">Set your location</string>
+	<string name="weather_custom_location_dialog_message">Be sure to follow the examples! Setting an invalid location will stop you from getting weather updates and may cause unexpected behavior.\n\nExamples: New York,NY // New York, NY // 10033 // London, England</string>
+	<string name="weather_custom_location_title">Custom location</string>
+	<string name="weather_refresh_interval">Refresh interval</string>
+	<string name="weather_use_celcius">Display temp in Celcius</string>
+	<string name="weather_use_celcius_summary">Enabling this will display weather temperature in Ceclius rather than Fahrenheit.</string>
+	
+	<!-- Dialog Titles -->
+	<string name="dt_free_memory">Minfree Taskkiller</string>
+
+	<!-- Preference Categories -->
+	<string name="prefcat_cpu">Set CPU</string>
+	<string name="prefcat_free_memory">Free Memory</string>
+	<string name="prefcat_tweaks">Advanced</string>
+	<string name="pc_tweaks">Tweaks</string>
+	<string name="pc_init_d">Enable/Disable Tweaks</string>
+	<string name="pc_init_d_tweaks">Customize Tweaks</string>
+
+	<!-- Preference Titles -->
+	<!-- Main -->
+	<string name="pt_performance">Performance</string>
+	<string name="pt_customization">Customization</string>
+	<string name="pt_tools">Tools</string>
+	<string name="pt_mod_version">Mod version</string>
+	<!-- Customization -->
+	<string name="pt_liberty_customizer">Liberty Customizer</string>
+	<string name="pt_lockscreen">Lockscreen Settings</string>
+	<string name="pt_ui_status_bar">Status Bar</string>
+	<string name="pt_pulldown_text">Pulldown Text</string>
+	<string name="pt_theme_manager">Theme Manager</string>
+	<!-- Tools -->
+	<string name="pt_spare_parts">Spare Parts</string>
+	<string name="pt_dev_tools">Dev Tools</string>
+	<string name="pt_dsp_manager">DSP Manager</string>
+	<string name="pt_testing_menu">Testing Menu</string>
+	<!-- Start up tweaks -->
+	<string name="pt_init_d">Start-up Tweaks</string>
+	<string name="pt_enable_init_d">Enable start-up tweaks</string>
+	<string name="pt_zipalign">Zipalign apks</string>
+	<string name="pt_enable_sd_boost">Enable SD boost</string>
+	<string name="pt_sd_boost">Read ahead value</string>
+	<string name="pt_fix_permissions">Fix permissions</string>
+	<string name="pt_clear_cache">Clear cache</string>
+	<string name="pt_enable_sysctl">Enable sysctl</string>
+	<string name="pt_enable_cron">Enable scheduled tasks</string>
+	<!-- Performance -->
+	<string name="pt_set_cpu_activity">Set CPU</string>
+	<string name="pt_free_memory">Free memory</string>
+	<string name="pt_free_memory_boot">Set at boot</string>
+	<!-- Cpu -->
+	<string name="pt_set_max">Max CPU</string>
+	<string name="pt_set_min">Min CPU</string>
+	<string name="pt_set_gov">Scaling governor</string>
+	<string name="pt_cpu_boot">Set at boot</string>
+        <!-- Scrolling Cache -->
+        <string name="pref_scrollingcache_title">Scrolling cache</string>
+        <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
+        <string name="pref_scrollingcache_force_enable">Force enable</string>
+        <string name="pref_scrollingcache_default_enable">Default enable</string>
+        <string name="pref_scrollingcache_default_disable">Default disable</string>
+        <string name="pref_scrollingcache_force_disable">Force disable</string>
+
+	<!-- Preference Summaries -->
+	<!-- Main -->
+	<string name="ps_performance">Set CPU, free memory &amp; customize start-up
+		settings.</string>
+	<string name="ps_customization">Customize the lockscreen &amp; status bar. Install
+		blur/aosp apps with Liberty Customizer</string>
+	<string name="ps_tools">Various system tools</string>
+	<!-- Customization -->
+	<string name="ps_liberty_customizer">Customize the ROM to your liking</string>
+	<string name="ps_lockscreen">Change lockscreen styles and manage widgets
+	</string>
+	<string name="ps_ui_status_bar">Customize the status bar</string>
+	<string name="ps_pulldown_text">Change the text in the pulldown bar.</string>
+	<string name="ps_theme_manager">Install custom themes for Liberty ROM</string>
+	<!-- Tools -->
+	<string name="ps_spare_parts">Various tweaks and customization</string>
+	<string name="ps_dev_tools">Tools for developers and advanced users</string>
+	<string name="ps_dsp_manager">Stand alone equalizer</string>
+	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
+	<!-- Start up tweaks -->
+	<string name="ps_init_d">Configure tweaks that are run at boot
+		(init.d)
+	</string>
+	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
+	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
+	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+	<string name="ps_sd_boost">Set value of read ahead in kb</string>
+	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
+	<string name="ps_clear_cache">Clear data cache on each boot</string>
+	<string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
+	<string name="ps_enable_cron">Enable scheduled cron jobs</string>
+	<!-- CPU -->
+	<string name="ps_set_max">Set max CPU scaling frequency\nCurrent: %s</string>
+	<string name="ps_set_min">Set min CPU scaling frequency\nCurrent: %s</string>
+	<string name="ps_set_gov">Set current scaling governor\nCurrent: %s</string>
+	<string name="ps_cpu_boot">Apply CPU at boot</string>
+	<!-- Performance -->
+	<string name="ps_set_cpu_activity">Set min/max frequencies and scaling governor
+	</string>
+	<string name="ps_free_memory">Amount of RAM the minfree taskkiller will keep |
+		Current: %s</string>
+	<string name="ps_free_memory_boot">Apply the amount above at boot</string>
+
+	<!-- Toast Messages -->
+	<string name="toast_min_max_error01">Max CPU cannot be lower than min CPU</string>
+	<string name="toast_min_max_error02">Min CPU cannot be higher than max CPU</string>
+
+	<!-- list_voltage -->
+	<string name="freq">Frequency</string>
+	<string name="current">mV current</string>
+	<string name="saved">mV saved</string>
+
+	<!-- voltage -->
+	<string name="error_values">Error getting values</string>
+	<string name="set_boot">Set On Boot</string>
+	<string name="apply_values">Apply Values</string>
+	
+	<string name="dpi">DPI</string>
+
+    <!-- **** SUPEROSR START **** -->
+    <!-- Memory Management -->
+    <string name="memory_management_title">Memory management</string>
+    <string name="memory_management_summary">Customize the usage of memory to alter system performance</string>
+    <!-- zRam -->
+    <string name="pref_zram_title">zRam</string>
+    <string name="pref_zram_summary">Compress memory for increased virtual capacity (requires reboot)</string>
+    <!-- VM Heap Size -->
+    <string name="pref_heapsize_title">VM heap size</string>
+    <string name="pref_heapsize_summary">Maximum amount of memory per VM heap (requires reboot)</string>
+    <!-- Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Allow purging of assets</string>
+    <string name="pref_purgeable_assets_summary">Purging of bitmap memory assets allows the freeing of more RAM when needed (requires reboot)</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">Surface dithering</string>
+    <string name="pref_use_dithering_summary">Dithering improves image quality on some displays at the cost of performance (requires reboot)</string>
+
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">16bit transparency</string>
+    <string name="pref_use_16bpp_alpha_summary">Better graphics performance, but lower quality and may cause visual artifacts (requires reboot)</string>
+    <!-- **** SUPEROSR END **** -->
 </resources>
