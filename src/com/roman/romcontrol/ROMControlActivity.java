@@ -40,7 +40,7 @@ public class ROMControlActivity extends PreferenceActivity implements ButtonBarH
     private static final String TAG = "ROM_Control";
 
     private static boolean hasNotificationLed;
-    private static String KEY_USE_ENGLISH_LOCALE = "use_english_locale";
+    //private static String KEY_USE_ENGLISH_LOCALE = "use_english_locale";
 
     protected HashMap<Integer, Integer> mHeaderIndexMap = new HashMap<Integer, Integer>();
     private List<Header> mHeaders;
@@ -61,9 +61,9 @@ public class ROMControlActivity extends PreferenceActivity implements ButtonBarH
 
         mTablet = Settings.System.getInt(getContentResolver(), Settings.System.IS_TABLET, 0) == 1;
         hasNotificationLed = getResources().getBoolean(R.bool.has_notification_led);
-        defaultLocale = Locale.getDefault();
+        /*defaultLocale = Locale.getDefault();
         Log.i(TAG, "defualt locale: " + defaultLocale.getDisplayName());
-        setLocale();
+        setLocale();*/
 
         mInLocalHeaderSwitch = true;
         super.onCreate(savedInstanceState);
@@ -96,7 +96,7 @@ public class ROMControlActivity extends PreferenceActivity implements ButtonBarH
         }
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_activity, menu);
@@ -150,7 +150,7 @@ public class ROMControlActivity extends PreferenceActivity implements ButtonBarH
                     getBaseContext().getResources().getDisplayMetrics());
 
         }
-    }
+    }*/
 
     /**
      * Populate the activity with the top-level headers.
@@ -247,7 +247,7 @@ public class ROMControlActivity extends PreferenceActivity implements ButtonBarH
     public void onResume() {
         super.onResume();
 
-        setLocale();
+        //setLocale();
 
         ListAdapter listAdapter = getListAdapter();
         if (listAdapter instanceof HeaderAdapter) {
