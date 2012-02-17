@@ -28,7 +28,7 @@ import android.preference.PreferenceScreen;
 
 import com.roman.romcontrol.R;
 import com.roman.romcontrol.SettingsPreferenceFragment;
-import com.android.settings.Utils;
+import com.roman.romcontrol.Utils;
 
 public class MemoryManagement extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {

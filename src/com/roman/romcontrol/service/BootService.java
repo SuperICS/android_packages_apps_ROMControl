@@ -5,8 +5,10 @@ import java.io.File;
 import java.util.List;
 
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.SystemProperties;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
@@ -15,6 +17,8 @@ import android.util.Log;
 import com.roman.romcontrol.tools.Voltage;
 import com.roman.romcontrol.tools.VoltageControl;
 import com.roman.romcontrol.util.CMDProcessor;
+import com.roman.romcontrol.fragments.MemoryManagement;
+import com.roman.romcontrol.Utils;
 
 public class BootService extends Service {
 
@@ -22,9 +26,23 @@ public class BootService extends Service {
     private static final String CUR_GOV = "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor";
     private static final String MAX_FREQ = "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq";
     private static final String MIN_FREQ = "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq";
+    private static final String KSM_SETTINGS_PROP = "sys.ksm.restored";
     private final BootService service = this;
     public static SharedPreferences preferences;
     private Thread bootThread;
+
+    public void onReceive(Context ctx, Intent intent) {
+
+        	if (Utils.fileExists(MemoryManagement.KSM_RUN_FILE)) {
+            	if (SystemProperties.getBoolean(KSM_SETTINGS_PROP, false) == false
+                    && intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
+                SystemProperties.set(KSM_SETTINGS_PROP, "true");
+                configureKSM(ctx);
+            } else {
+                SystemProperties.set(KSM_SETTINGS_PROP, "false");
+            }
+}
+}
 
     @Override
     public void onStart(Intent intent, int startId) {
@@ -77,6 +95,7 @@ public class BootService extends Service {
                     }
                 }
 
+
                 if (Settings.System.getInt(getContentResolver(), Settings.System.USE_WEATHER, 0) != 0) {
                     Intent startRefresh = new Intent(getApplicationContext(),
                             WeatherRefreshService.class);
@@ -87,12 +106,20 @@ public class BootService extends Service {
                     getApplicationContext().startService(getWeatherNow);
                 }
             }
-        };
+         };
         bootThread.start();
         // Stop the service
         stopSelf();
     }
 
+   private void configureKSM(Context ctx) {
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ctx);
+
+        boolean ksm = prefs.getBoolean(MemoryManagement.KSM_PREF, false);
+
+        Utils.fileWriteOneLine(MemoryManagement.KSM_RUN_FILE, ksm ? "1" : "0");
+        Log.d(TAG, "KSM settings restored.");
+    }
     @Override
     public IBinder onBind(final Intent intent) {
         // TODO Auto-generated method stub
