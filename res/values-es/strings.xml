@@ -41,9 +41,9 @@
     <string name="navigation_bar_tint_title">Color botones inferiores</string>
 
     <string name="title_pref_navigation_menu_display">Visibilidad de menú</string>
-    <string name="summary_pref_navigation_menu_display">¿Cómo y cuándo desea que los botones de menú aparezca?</string>
+    <string name="summary_pref_navigation_menu_display">¿Cómo y cuándo desea que los botones de menú aparezcan?</string>
 
-    <string name="navbar_order_title">Orden de los botones de navegaciónr</string>
+    <string name="navbar_order_title">Orden de los botones de navegación</string>
     <string name="navbar_order_summary">Personalizar el orden de las teclas de función</string>
 
     <string name="enabled_navbar_buttons_title">Activado botones</string>
