@@ -386,8 +386,8 @@
 	<string name="aokp_source_summary">AOKP is fully open source. You can always check out the latest source at github.com/aokp</string>
     <string name="aokp_irc_title">Join us on IRC</string>
     <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
-    <string name="about_aokp">About AOKP</string>
-    <string name="about_aokp_summary">@null</string>
+    <string name="about_aokp">About AOKP (Thanks to developers)</string>
+    <string name="about_aokp_summary">Mod by SuperTeam</string>
 
     <!-- **** SUPEROSR START **** -->
     <!-- Memory Management -->

@@ -356,7 +356,7 @@ public class StatusBarToggles extends PreferenceFragment implements
         if (clusterfuck == null) {
             Log.e(TAG, "clusterfuck was null");
             // return null;
-            clusterfuck = "WIFI|BT|GPS|ROTATE";
+            clusterfuck = "WIFI|BT|GPS|ROTATE|DATA|2G";
         }
 
         String[] togglesStringArray = clusterfuck.split("\\|");
