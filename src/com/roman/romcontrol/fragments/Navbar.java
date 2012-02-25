@@ -81,7 +81,7 @@ public class Navbar extends SettingsPreferenceFragment implements
         mNavBarMenuDisplay.setOnPreferenceChangeListener(this);
         mNavBarMenuDisplay.setValue(Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.MENU_VISIBILITY,
-                0) + "");
+                3) + "");
 
         mHomeLongpress = (ListPreference) findPreference(PREF_HOME_LONGPRESS);
         mHomeLongpress.setOnPreferenceChangeListener(this);
