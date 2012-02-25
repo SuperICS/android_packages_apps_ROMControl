@@ -432,7 +432,7 @@ public class Navbar extends SettingsPreferenceFragment implements
                 Settings.System.NAVIGATION_BAR_BUTTONS);
 
         if (clusterfuck == null) {
-            clusterfuck = "BACK|HOME|TASKS";
+            clusterfuck = "BACK|HOME|TASKS|MENU_BIG";
         }
 
         String[] togglesStringArray = clusterfuck.split("\\|");
