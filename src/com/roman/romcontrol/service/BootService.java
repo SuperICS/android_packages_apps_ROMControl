@@ -31,20 +31,6 @@ public class BootService extends Service {
     public static SharedPreferences preferences;
     private Thread bootThread;
 
-    public void onReceive(Context ctx, Intent intent) {
-
-        	if (Utils.fileExists(MemoryManagement.KSM_RUN_FILE)) {
-            	if (SystemProperties.getBoolean(KSM_SETTINGS_PROP, false) == false
-                    && intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
-                SystemProperties.set(KSM_SETTINGS_PROP, "true");
-                configureKSM(ctx);
-            } else {
-                SystemProperties.set(KSM_SETTINGS_PROP, "false");
-            }
-}
-}
-
-    @Override
     public void onStart(Intent intent, int startId) {
         preferences = PreferenceManager.getDefaultSharedPreferences(service);
         super.onStart(intent, startId);
@@ -94,19 +80,19 @@ public class BootService extends Service {
                                 + VoltageControl.MV_TABLE1);
                     }
                 }
-
-
-                if (Settings.System.getInt(getContentResolver(), Settings.System.USE_WEATHER, 0) != 0) {
-                    Intent startRefresh = new Intent(getApplicationContext(),
-                            WeatherRefreshService.class);
-                    getApplicationContext().startService(startRefresh);
-
-                    Intent getWeatherNow = new Intent(getApplicationContext(), WeatherService.class);
-                    getWeatherNow.setAction(WeatherService.INTENT_REQUEST_WEATHER);
-                    getApplicationContext().startService(getWeatherNow);
-                }
             }
-         };
+        };
+        
+        if (Settings.System.getInt(getContentResolver(), Settings.System.USE_WEATHER, 0) != 0) {
+            Intent startRefresh = new Intent(getApplicationContext(),
+                    WeatherRefreshService.class);
+            getApplicationContext().startService(startRefresh);
+            
+            Intent getWeatherNow = new Intent(getApplicationContext(), WeatherService.class);
+            getWeatherNow.setAction(WeatherService.INTENT_REQUEST_WEATHER);
+            getApplicationContext().startService(getWeatherNow);
+        }
+
         bootThread.start();
         // Stop the service
         stopSelf();
