@@ -50,14 +50,14 @@ public class StatusBarBattery extends PreferenceFragment implements
         mBatteryBar.setOnPreferenceChangeListener(this);
         mBatteryBar.setValue((Settings.System
                 .getInt(getActivity().getContentResolver(),
-                        Settings.System.STATUSBAR_BATTERY_BAR, 0))
+                        Settings.System.STATUSBAR_BATTERY_BAR, 1))
                 + "");
 
         mBatteryBarStyle = (ListPreference) findPreference(PREF_BATT_BAR_STYLE);
         mBatteryBarStyle.setOnPreferenceChangeListener(this);
         mBatteryBarStyle.setValue((Settings.System.getInt(getActivity()
                 .getContentResolver(),
-                Settings.System.STATUSBAR_BATTERY_BAR_STYLE, 1))
+                Settings.System.STATUSBAR_BATTERY_BAR_STYLE, 0))
                 + "");
 
         mBatteryBarColor = (ColorPickerPreference) findPreference(PREF_BATT_BAR_COLOR);
