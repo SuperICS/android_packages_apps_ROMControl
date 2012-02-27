@@ -33,7 +33,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <!--<category android:name="com.aokp.romcontrol.SHORTCUT" />-->
             </intent-filter>
         </activity>
         <activity
@@ -173,7 +173,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity
+       <!-- <activity
             android:name="CreateShortcut"
             android:theme="@style/Theme.CreateShortCut" >
             <intent-filter>
@@ -181,7 +181,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
+        </activity>-->
 
         <receiver
             android:name=".service.BootReceiver"

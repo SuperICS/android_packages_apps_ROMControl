@@ -176,7 +176,7 @@
 	
 	<!-- Weather -->
 	<string name="weather_enable">Activa tiempo</string>
-	<string name="weather_enable_summary">Ya sea para mostrar de la información meteorológica y mostrarla en todo el sistema.</string>
+	<string name="weather_enable_summary">Ya sea para mostrar la información meteorológica y mostrarla en todo el sistema.</string>
 	<string name="weather_use_custom_location">Usa localización personalizadalocation</string>
 	<string name="weather_use_custom_location_summary">Configurar una ubicación personalizada puede ahorrar algo de batería. De lo contrario la red de localización se utiliza para determinar su ubicación.</string>
 	<string name="weather_custom_location_dialog_title">Establezca su ubicación</string>
@@ -232,7 +232,7 @@
 	<string name="pt_set_max">Max CPU</string>
 	<string name="pt_set_min">Min CPU</string>
 	<string name="pt_set_gov">Scaling governor</string>
-	<string name="pt_cpu_boot">Establece en arranque/string>
+	<string name="pt_cpu_boot">Establece en arranque</string>
         <!-- Scrolling Cache -->
         <string name="pref_scrollingcache_title">Scrolling cache</string>
         <string name="pref_scrollingcache_summary">Scrolling cache  puede mejorar el rendimiento de desplazamiento en el coste de la memoria</string>
