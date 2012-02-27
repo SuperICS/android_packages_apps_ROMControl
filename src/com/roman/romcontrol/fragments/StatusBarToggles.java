@@ -63,7 +63,7 @@ public class StatusBarToggles extends PreferenceFragment implements
         mBrightnessLocation.setOnPreferenceChangeListener(this);
         mBrightnessLocation.setValue(Integer.toString(Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.STATUSBAR_TOGGLES_BRIGHTNESS_LOC,
-                3)));
+                2)));
 
         mToggleStyle = (ListPreference) findPreference(PREF_TOGGLES_STYLE);
         mToggleStyle.setOnPreferenceChangeListener(this);
@@ -74,7 +74,7 @@ public class StatusBarToggles extends PreferenceFragment implements
         mAlternateButtonLayout = (CheckBoxPreference) findPreference(PREF_ALT_BUTTON_LAYOUT);
         mAlternateButtonLayout.setChecked(Settings.System.getInt(
                 getActivity().getContentResolver(),
-                Settings.System.STATUSBAR_TOGGLES_USE_BUTTONS, 0) == 1);
+                Settings.System.STATUSBAR_TOGGLES_USE_BUTTONS, 1) == 1);
 
         mLayout = findPreference("toggles");
 
