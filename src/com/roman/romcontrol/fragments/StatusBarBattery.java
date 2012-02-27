@@ -43,7 +43,7 @@ public class StatusBarBattery extends PreferenceFragment implements
         mBatteryIcon.setOnPreferenceChangeListener(this);
         mBatteryIcon.setValue((Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.STATUSBAR_BATTERY_ICON,
-                0))
+                5))
                 + "");
 
         mBatteryBar = (ListPreference) findPreference(PREF_BATT_BAR);
@@ -57,7 +57,7 @@ public class StatusBarBattery extends PreferenceFragment implements
         mBatteryBarStyle.setOnPreferenceChangeListener(this);
         mBatteryBarStyle.setValue((Settings.System.getInt(getActivity()
                 .getContentResolver(),
-                Settings.System.STATUSBAR_BATTERY_BAR_STYLE, 0))
+                Settings.System.STATUSBAR_BATTERY_BAR_STYLE, 1))
                 + "");
 
         mBatteryBarColor = (ColorPickerPreference) findPreference(PREF_BATT_BAR_COLOR);
@@ -66,13 +66,13 @@ public class StatusBarBattery extends PreferenceFragment implements
         mBatteryBarChargingAnimation = (CheckBoxPreference) findPreference(PREF_BATT_ANIMATE);
         mBatteryBarChargingAnimation.setChecked(Settings.System.getInt(
                 getActivity().getContentResolver(),
-                Settings.System.STATUSBAR_BATTERY_BAR_ANIMATE, 0) == 1);
+                Settings.System.STATUSBAR_BATTERY_BAR_ANIMATE, 1) == 1);
 
         mBatteryBarThickness = (ListPreference) findPreference(PREF_BATT_BAR_WIDTH);
         mBatteryBarThickness.setOnPreferenceChangeListener(this);
         mBatteryBarThickness.setValue((Settings.System.getInt(getActivity()
                 .getContentResolver(),
-                Settings.System.STATUSBAR_BATTERY_BAR_THICKNESS, 1))
+                Settings.System.STATUSBAR_BATTERY_BAR_THICKNESS, 2))
                 + "");
     }
 
