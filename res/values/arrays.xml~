@@ -549,6 +549,7 @@
 		<item>1</item>
 		<item>2</item>
 	</string-array>
+<<<<<<< HEAD
 
     <!-- **** SUPEROSR START **** -->
     <string-array name="entries_heapsize">
@@ -581,6 +582,8 @@
         <item>26</item>
     </string-array>
     <!-- **** SUPEROSR END **** -->
+
+=======
 	
 	<string-array name="weather_statusbar_location_entries">
 		<item>Above carrier text</item>
@@ -624,4 +627,5 @@
 		<item>30</item>
 		<item>24</item>
 	</string-array>
+>>>>>>> 19f198c7001860e88bf81787b78f0517e55374d5
 </resources>

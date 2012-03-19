@@ -320,6 +320,31 @@
     <string name="ps_set_cpu_activity">Wähle min/max Frequenzen und Governor</string>
     <string name="ps_free_memory">Menge an RAM, die der Taskkiller behalten soll |
 		Aktuell: %s</string>
+<<<<<<< HEAD
+	<string name="ps_free_memory_boot">Obenstehende Menge beim Boot übernehmen	</string>
+
+
+<!-- Toast Messages -->
+	<string name="toast_min_max_error01">Max CPU kann nicht niedriger sein als min CPU</string>
+	<string name="toast_min_max_error02">Min CPU kann nicht höher sein als max CPU</string>
+
+
+<!-- list_voltage -->
+	<string name="freq">Frequenz</string>
+	<string name="current">mV aktuell</string>
+	<string name="saved">mV gespeichert</string>
+
+
+<!-- voltage -->
+	
+<string name="error_values">Fehler beim Abrufen der Werte</string>
+	<string name="set_boot">Beim Boot festlegen</string>
+	<string name="apply_values">Werte übernehmen</string>
+	
+	<string name="dpi">DPI</string>
+    
+</resources>
+=======
     <string name="ps_free_memory_boot">Obenstehende Menge beim Boot übernehmen</string>
     <!-- Toast Messages -->
     <string name="toast_min_max_error01">Max CPU kann nicht niedriger sein als min CPU</string>
@@ -344,3 +369,4 @@
     <string name="about_aokp">Über AOKP</string>
     <string name="about_aokp_summary">@null</string>
 </resources>
+>>>>>>> 19f198c7001860e88bf81787b78f0517e55374d5
