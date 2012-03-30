@@ -69,6 +69,8 @@
 	<string name="custom_carrier_label_title">Custom carrier label</string>
 	<string name="longpress_to_kill_title">Hold back to kill</string>
 	<string name="longpress_to_kill_summary">Holding back will kill the current activity</string>
+        
+        <string name="enable_volume_options">Enable Volume Options</string>
 	
 	<string name="rotate_180_title">Allow 180° rotation</string>
 	<string name="rotate_180_summary">Allow your device to rotate upside down!</string>
@@ -148,6 +150,21 @@
     <string name="lockscreen_wallpaper_title">Choose lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_summary">You can remove the wallpaper from the menu in this window</string>
     <string name="lockscreen_text_color_title">Lockscreen text color</string>
+    <string name="lockscreen_calendar">Lockscreen calendar</string>
+    <string name="lockscreen_calendar_title">Enable</string>
+    <string name="lockscreen_calendar_summary">Show upcoming event(s) from your calendar on the lockscreen.</string>
+    <string name="lockscreen_calendar_sources_title">Calendar sources</string>
+    <string name="lockscreen_calendar_sources_summary">Select the calendars you want to see.</string>
+    <string name="lockscreen_calendar_range_title">Time-range</string>
+    <string name="lockscreen_calendar_range_summary">Select the time-range to be displayed.</string>
+    <string name="lockscreen_calendar_use_colors_title">Use colors</string>
+    <string name="lockscreen_calendar_use_colors_summary">If enabled, events will be colored like in your calendar.</string>
+    <string name="lockscreen_calendar_hide_ongoing_title">Hide ongoing events</string>
+    <string name="lockscreen_calendar_hide_ongoing_summary">If enabled, events which already started won\'t show up.</string>
+    <string name="lockscreen_calendar_flip_title">Multiple events</string>
+    <string name="lockscreen_calendar_flip_summary">If enabled, the widget will display multiple events by flipping between them.</string>
+    <string name="lockscreen_calendar_interval_title">Flip interval</string>
+    <string name="lockscreen_calendar_interval_summary">Choose the animation speed in seconds.</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">Show power saver</string>
@@ -244,6 +261,8 @@
 	<string name="signal_color_title">Signal color</string>
 	<string name="hide_signal_title">Hide signal bars</string>
 	<string name="hide_signal_summary">Will also hide data indicator for now. Will be able to separate later.</string>
+	<string name="wifi_signal_style">WiFi Signal Text Style</string>
+	<string name="wifi_signal_color_title">WiFi Signal color</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -404,6 +423,7 @@
 	<string name="aokp_source_summary">AOKP is fully open source. You can always check out the latest source at github.com/aokp</string>
     <string name="aokp_irc_title">Join us on IRC</string>
     <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
+
     <string name="about_aokp">About AOKP (Thanks to developers)</string>
     <string name="about_aokp_summary">Mod by SuperTeam</string>
 
@@ -433,4 +453,17 @@
     <string name="pref_ksm_summary">KSM reduces physical memory requirements and improves performance</string>
     <!-- **** SUPEROSR END **** -->
 
+    
+    <!--  Kernel Tweaks -->
+    <string name="pt_fast_charge_boot">Fast Charge</string>
+    <string name="ps_fast_charge_boot">Enable fast charge at boot</string>
+    <string name="kernel">Kernel Tweaks (if supported)</string>
+    <string name="color_tuning_title_head">Color Multipliers Tuning</string>
+    <string name="color_tuning_summary_head">Calibrate multipliers screen color</string>
+    <string name="gamma_tuning_title_head">Color Gamma Tuning</string>
+    <string name="gamma_tuning_summary_head">Calibrate gamma color correction</string>
+    <string name="color_red_title">Red</string>
+    <string name="color_green_title">Green</string>
+    <string name="color_blue_title">Blue</string>
+    <string name="reset_defaults">Reset to Defaults</string>
 </resources>

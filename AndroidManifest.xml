@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
-    package="com.roman.romcontrol"
+    package="com.aokp.romcontrol"
     android:sharedUserId="android.uid.system" >
 
-    <original-package android:name="com.roman.romcontrol" />
+    <original-package android:name="com.aokp.romcontrol" />
 
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -71,6 +71,15 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="com.aokp.romcontrol.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.InitD"
+            android:label="Init.D" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.aokp.romcontrol.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
