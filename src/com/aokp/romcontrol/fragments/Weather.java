@@ -77,7 +77,7 @@ public class Weather extends AOKPPreferenceFragment implements OnPreferenceChang
 
         mShowLoc = (CheckBoxPreference) findPreference("show_location");
         mShowLoc.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.WEATHER_SHOW_LOCATION, 0) == 1);
+                Settings.System.WEATHER_SHOW_LOCATION, 1) == 1);
 
         mUseCelcius = (CheckBoxPreference) findPreference(WeatherPrefs.KEY_USE_CELCIUS);
         mUseCelcius.setChecked(WeatherPrefs.getUseCelcius(mContext));

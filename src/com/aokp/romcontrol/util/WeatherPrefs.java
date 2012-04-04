@@ -45,7 +45,7 @@ public class WeatherPrefs {
 
     public static boolean getUseCelcius(Context c) {
         SharedPreferences prefs = c.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
-        return prefs.getBoolean(KEY_USE_CELCIUS, false);
+        return prefs.getBoolean(KEY_USE_CELCIUS, true);
     }
 
     public static boolean setUseCelcius(Context c, boolean use) {
