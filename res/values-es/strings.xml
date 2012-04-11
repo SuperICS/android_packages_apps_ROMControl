@@ -18,9 +18,9 @@
     <string name="nav_bar">Botones inferiores</string>
     <string name="tools">Herramientas</string>
     <string name="weather">Tiempo</string>
-	<string name="signal">Señal</string>
+    <string name="signal">Señal</string>
     
-    <string name="header_summary_battery">Bateria, % bateria mod, etc</string>
+    <string name="header_summary_battery">Batería, % batería mod, etc</string>
     <string name="header_summary_general_ui">Boot animation, bug mailer, rotación, cambio teclado, etc</string>
     <string name="header_summary_navigation_bar">Botones para mostrar, color barra de navegación, orden</string>
     <string name="header_summary_lockscreens">Aplicaciones personalizadas para lanzar, diseño</string>
@@ -29,11 +29,11 @@
     <string name="header_summary_led">Cambiar la configuración predeterminada para Android</string>
     <string name="header_summary_general">Comportamiento de Settings</string>
     <string name="header_summary_toggles">Botones personalizados</string>
-    <string name="header_summary_clock">Posicion reloj, estilo AM/PM, color</string>
+    <string name="header_summary_clock">Posición reloj, estilo AM/PM, color</string>
     <string name="header_summary_weather">Activa/desactiva, tiempo metereologico y el intervalo</string>
-	<string name="header_summary_signal">Texto señal cobertura</string>
+    <string name="header_summary_signal">Icono señal cobertura/Wifi</string>
 	
-       <string name="advanced_settings">Opciones avanzadas</string>
+    <string name="advanced_settings">Opciones avanzadas</string>
     <string name="misc_short">Detalles</string>
     
     <!-- Botones inferiores -->
@@ -57,7 +57,7 @@
     <string name="long_press_home_summary">Qué hacer cuando mantenga presionado el boton Home. Reinicie para reflejar los cambios.</string>
     
     <string name="glow_times_title">Animación de botones</string>
-    <string name="glow_times_summary">Ajustar velocidad animación botones al tocarlos. Bajar la veolidad podria afectar al rendimiento.</string>
+    <string name="glow_times_summary">Ajustar velocidad animación botones al tocarlos. Bajar la velocidad puede afectar al rendimiento.</string>
     
     <!-- Opciones visuales -->
     <string name="rotation_animation_delay_title">Velocidad de rotacion</string>
@@ -76,10 +76,10 @@
 	<string name="rotate_180_summary">Permite a tu dispositivo mostrar la pantalla hacia abajo</string>
 
 	<string name="horizontal_recents_task_panel_title">Apps recientes en horizontal</string>
-	<string name="horizontal_recents_task_panel_summary">Usar el estilo webOS para las apps recientes. Se reinciara la UI despues de esto. Si no funciona, simplemente reinicia el dispositivo.</string>
+	<string name="horizontal_recents_task_panel_summary">Usar el estilo webOS para las apps recientes. Se reinciara la UI despues de esto. Si no funciona, reinicia el dispositivo.</string>
 	
 	<string name="disable_bootanimation_title">Desactivar boot animation</string>
-	<string name="disable_bootanimation_summary">Jerk.</string>
+	<string name="disable_bootanimation_summary">Permite desactivar la animación al encendido</string>
 	
 	<string name="disable_bugmailer_title">Desactivar bugmailer</string>
 
@@ -103,7 +103,7 @@
 	<string name="clear_market_data_cleared">Datos del Market borrados</string>
 	<string name="open_market_title">4. Abre el Market y presiona aceptar</string>
 	<string name="open_market_summary">Presiona atrás cuando se complete para vovler aquí.</string>
-	<string name="custom_density_title">5. Definir densidad!</string>
+	<string name="custom_density_title">5. Definir densidad</string>
 	<string name="custom_density_summary">Si tienes problemas de compatibilidad con el market, asegurate de volver y repetir el proceso.</string>
 
     <!-- Pantalla de bloqueo -->
@@ -122,14 +122,14 @@
     <string name="summary_lockscreen_user_timeout_override">Use esta opción para que al apagar la pantalla de forma manual tarde unos segunos en bloquear.</string>
     <string name="show_lock_before_unlock_title">Mostrar bloqueo antes de PIN/Patrón</string>
     <string name="show_lock_before_unlock_summary">Mostrar bloqueo normal antes del bloqueo de seguridad</string>
-    <string name="lockscreen_battery_title">Porcentage bateria en bloqeo</string>
-    <string name="lockscreen_battery_summary">Mostrar siempre el porcentage de bateria en la pantalla de bloqueo</string>
+    <string name="lockscreen_battery_title">Porcentaje batería en bloqeo</string>
+    <string name="lockscreen_battery_summary">Mostrar siempre el porcentaje de batería en la pantalla de bloqueo</string>
 	<string name="lockscreen_weather_title">Tiempo en bloqueo</string>
     <string name="lockscreen_weather_summary">Mostrar información del tiempo en pantalla de bloqueo. Necesitas activar el servicio de Tiempo en Opciones especiales</string>
     <string name="volume_wake_title">Desbloqueo con volumen</string>
-    <string name="volume_wake_summary">Al presionar las teclas de volumen se desbloqueara el dispositvo.</string>
+    <string name="volume_wake_summary">Al presionar las teclas de volumen se desbloqueará el dispositvo.</string>
     <string name="volume_music_controls_title">Controles de música</string>
-    <string name="volume_music_controls_summary">Larga pulsacion sobre las teclas de volumen pasaran cancion. Desbloqueo con volumen no funciona si suena una canción.</string>
+    <string name="volume_music_controls_summary">Larga pulsación sobre las teclas de volumen pasarán de canción. Desbloqueo con volumen no funciona si suena una canción.</string>
     <string name="lockscreen_show_nav_title">Ocultar botones inferiores</string>
     <string name="lockscreen_show_nav_summary">Ocultar botones inferiores (si tu dispositivo lo soporta) en la pantalla de bloqueo.</string>
     <string name="custom_app_n_dialog_title">Seleciona una acción para el item %1$s</string>
@@ -142,12 +142,12 @@
     <string name="lockscreen_action_phone">Teléfono</string>
     <string name="lockscreen_action_none">Vacio</string>
     <string name="lockscreen_landscape_title">Bloqueo de pantalla horizontal</string>
-    <string name="lockscreen_landscape_summary">El bloqueo de pantalla en horizontal sera activado</string>
+    <string name="lockscreen_landscape_summary">La pantalla de bloqueo podrá ser visualizada en horizontal</string>
     <string name="lockscreen_quick_unlock_control_title">Desbloqueo de PIN rápido</string>
-    <string name="lockscreen_quick_unlock_control_summary">Desbloquear bloqueo seguro sin pulsar OK</string>
+    <string name="lockscreen_quick_unlock_control_summary">Desbloquear PIN de seguridad sin pulsar OK</string>
     <string name="enable_fast_torch_title">Activar linterna rápida</string>
-    <string name="enable_fast_torch_summary">Cuando la pantalla está apagada, la linterna se activara mientras se mantenga pulsado el boton POWER.</string>
-    <string name="lockscreen_wallpaper_title">Selecciona fondo pantalla de bloqueo</string>
+    <string name="enable_fast_torch_summary">Cuando la pantalla está apagada, la linterna se activará mientras se mantenga pulsado el boton POWER.</string>
+    <string name="lockscreen_wallpaper_title">Selecciona fondo pantalla bloqueo</string>
     <string name="lockscreen_wallpaper_summary">Puedes borrar el fondo desde el menú en esta ventana</string>
     <string name="lockscreen_text_color_title">Color texto bloqueo pantalla</string>
     <string name="lockscreen_calendar">Calendario en bloqueo</string>
@@ -163,7 +163,7 @@
     <string name="lockscreen_calendar_hide_ongoing_summary">Si está activado, los eventos empezados no apareceran.</string>
     <string name="lockscreen_calendar_flip_title">Eventos múltiples</string>
     <string name="lockscreen_calendar_flip_summary">Si está activado, se mostraran multiples eventos .</string>
-    <string name="lockscreen_calendar_interval_title">Intérvalo</string>
+    <string name="lockscreen_calendar_interval_title">Intervalo</string>
     <string name="lockscreen_calendar_interval_summary">Seleccionar la velocidad de animación en segundos.</string>
     
     <!-- Menú de encendido -->
@@ -178,7 +178,7 @@
     <string name="summary_pref_powersaving_pref_mode">@null</string>
     
     <string name="title_pref_powersaving_data_screen_off">Datos con pantalla apagada</string>
-    <string name="summary_pref_powersaving_data_screen_off">¿Qué hacer con los el trafico de datos cuando la pantalla se apaga?</string>
+    <string name="summary_pref_powersaving_data_screen_off">¿Qué hacer con los el tráfico de datos cuando la pantalla se apaga?</string>
         
     <string name="title_pref_powersaving_data_screen_off_delay">Retrasar la acción</string>
     <string name="summary_pref_powersaving_data_screen_off_delay">¿Cuánto tiempo esperar antes de aplicar los ajustes?</string>
@@ -189,7 +189,7 @@
     <string name="title_pref_powersaving_sync_screen_off_delay">Intervalo de sincronización</string>
     <string name="summary_pref_powersaving_sync_screen_off_delay">¿Cuánto tiempo debe esperar entre cada sincronización?</string>
 
-    <string name="powersaver_data_cat">Trafico de datos</string>
+    <string name="powersaver_data_cat">Tráfico de datos</string>
     <string name="powersaver_sync_cat">Sincronización</string>
 
     <string name="screen_off_wifi_action">WIFI con pantalla apagada</string>
@@ -206,34 +206,34 @@
     <string name="summary_led_screen_on">@null</string>
 
     <!--  Barra de estado | General -->
-    <string name="title_settings_behavior">Use el comportamiento por defecto de configuración</string>
-    <string name="summary_settings_behavior">El comportamiento por defecto consiste en presionar boton de ajustes para ver los interruptores y al mantener la tecla ajustes va a "ajustes de sistema". Desactive para invertir funcionamiento</string>
+    <string name="title_settings_behavior">Usar comportamiento por defecto de configuración</string>
+    <string name="summary_settings_behavior">El comportamiento por defecto consiste en presionar el botón de ajustes para ver/ocultar los interruptores, y mantenerlo para ir a "ajustes de sistema". Desactive para invertir funcionamiento</string>
 
     <string name="title_auto_hide_toggles">Auto ocultar</string>
-    <string name="summary_auto_hide_toggles">Despues de la acción se oculta</string>
+    <string name="summary_auto_hide_toggles">Después de la acción, la barra de notificaciones se oculta</string>
 
-    <string name="title_status_bar_brightness_toggle">Actica control de brillo</string>
+    <string name="title_status_bar_brightness_toggle">Activa control de brillo</string>
     <string name="summary_status_bar_brightness_toggle">Deslice el dedo lentamente a través de la barra de estado para ajustar la configuración de brillo</string>
 
     <string name="adb_icon_title">Activa icono USB debugger</string>
     <string name="adb_icon_summary">@null</string>
 
     <string name="statusbar_transparency">Transparencia</string>
-    <string name="statusbar_transparency_summary">Activando esto puedes perjudicar el rendimineto o duración de bateria. (requiere reinciar)</string>
+    <string name="statusbar_transparency_summary">Activando esto puedes perjudicar el rendimiento o duración de batería. (requiere reinciar)</string>
 
     <string name="statusbar_layout">Disposición notificaciones</string>
-    <string name="statusbar_layout_summary">Cambiar la disposicion de las notificaciones (requiere reiniciar)</string>
+    <string name="statusbar_layout_summary">Cambiar la disposición de las notificaciones (requiere reiniciar)</string>
 
     <!-- Statusbar | Battery -->
-    <string name="battery_icon">Estilo icono de bateria</string>
+    <string name="battery_icon">Estilo icono de batería</string>
     <string name="battery_summary_text_widget">@null</string>
-    <string name="battery_bar">Posición barra bateria</string>
-    <string name="battery_bar_color">Color barra bateria</string>
-    <string name="battery_bar_cat">Opciones barra bateria</string>
-    <string name="battery_bar_style_title">Estilo barra bateria</string>
-    <string name="battery_bar_thickness_title">Grosor barra bateria</string>
+    <string name="battery_bar">Posición barra batería</string>
+    <string name="battery_bar_color">Color barra batería</string>
+    <string name="battery_bar_cat">Opciones barra batería</string>
+    <string name="battery_bar_style_title">Estilo barra batería</string>
+    <string name="battery_bar_thickness_title">Grosor barra batería</string>
     <string name="battery_bar_animate_title">Animación cargando</string>
-    <string name="battery_bar_animate_summary">Animación cuando carga la bateria.</string>
+    <string name="battery_bar_animate_summary">Animación cuando carga la batería.</string>
     
 
     <!-- Barra de estado | Reloj -->
@@ -288,7 +288,7 @@
 	<!-- Weather -->
 	<string name="weather_enable">Activa tiempo</string>
 	<string name="weather_enable_summary">Ya sea para mostrar la información meteorológica y mostrarla en todo el sistema.</string>
-	<string name="weather_use_custom_location">Usa localización personalizadalocation</string>
+	<string name="weather_use_custom_location">Usa localización personalizada</string>
 	<string name="weather_use_custom_location_summary">Configurar una ubicación personalizada puede ahorrar algo de batería. De lo contrario la red de localización se utiliza para determinar su ubicación.</string>
 	<string name="weather_custom_location_dialog_title">Establezca su ubicación</string>
 	<string name="weather_custom_location_dialog_message">Asegúrese de seguir los ejemplos! Configuración de una ubicación no válida se le permita recibir actualizaciones del tiempo y puede provocar un comportamiento inesperado.\n\nEjemplos: New York,NY // New York, NY // 10033 // London, England</string>
@@ -318,11 +318,11 @@
 	<string name="pt_tools">Herramientas</string>
 	<string name="pt_mod_version">Mod version</string>
 	<!-- Customization -->
-	<string name="pt_liberty_customizer">Liberty Customizer</string>
-	<string name="pt_lockscreen">Lockscreen Settings</string>
-	<string name="pt_ui_status_bar">Status Bar</string>
+	<string name="pt_liberty_customizer">Personalizador Liberty</string>
+	<string name="pt_lockscreen">Opciones de bloqueo</string>
+	<string name="pt_ui_status_bar">Barra de estado</string>
 	<string name="pt_pulldown_text">Pulldown Text</string>
-	<string name="pt_theme_manager">Theme Manager</string>
+	<string name="pt_theme_manager">Gestor de temas</string>
 	<!-- Tools -->
 	<string name="pt_spare_parts">Spare Parts</string>
 	<string name="pt_dev_tools">Herramientas de desarrollador</string>
@@ -362,17 +362,17 @@
 		blur/aosp apps with Liberty Customizer</string>
 	<string name="ps_tools">Various system tools</string>
 	<!-- Customization -->
-	<string name="ps_liberty_customizer">Customize the ROM to your liking</string>
-	<string name="ps_lockscreen">Change lockscreen styles and manage widgets
+	<string name="ps_liberty_customizer">Personaliza la rom a tu gusto</string>
+	<string name="ps_lockscreen">Cambiar tipo de bloqueo y gestionar widgets
 	</string>
-	<string name="ps_ui_status_bar">Customize the status bar</string>
-	<string name="ps_pulldown_text">Change the text in the pulldown bar.</string>
-	<string name="ps_theme_manager">Install custom themes for Liberty ROM</string>
+	<string name="ps_ui_status_bar">Personalizar barra de estado</string>
+	<string name="ps_pulldown_text">Cambiar el texto en la barra.</string>
+	<string name="ps_theme_manager">Instalar temas personalizados para Liberty ROM</string>
 	<!-- Tools -->
 	<string name="ps_spare_parts">Diversos tweaks y personalizaciones</string>
 	<string name="ps_dev_tools">Herramientas para desarolladores y usuarios avanzados</string>
 	<string name="ps_dsp_manager">Stand alone equalizer</string>
-	<string name="ps_testing_menu">Información del teléfono, bateria y estadísticas de uso</string>
+	<string name="ps_testing_menu">Información del teléfono, batería y estadísticas de uso</string>
 	<!-- Start up tweaks -->
 	<string name="ps_init_d">Configurar tweaks que se ejecutan en el arranque
 		(init.d)
@@ -418,7 +418,7 @@
     <string name="about_aokp_summary">Mod. por SuperTeam</string>
     <!-- Memory Management -->
     <string name="memory_management_title">Manejo de memoria</string>
-    <string name="memory_management_summary">Personalice el uso de la memoria para alterar el rendimiento del sistema</string>
+    <string name="memory_management_summary">Personaliza el uso de la memoria para alterar el rendimiento del sistema</string>
     <!-- zRam -->
     <string name="pref_zram_title">zRam</string>
     <string name="pref_zram_summary">Comprimir la memoria de mayor capacidad virtual (requiere reinicio)</string>
