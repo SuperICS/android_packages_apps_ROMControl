@@ -18,9 +18,10 @@
     <string name="nav_bar">Botones inferiores</string>
     <string name="tools">Herramientas</string>
     <string name="weather">Tiempo</string>
+	<string name="signal">Señal</string>
     
     <string name="header_summary_battery">Bateria, % bateria mod, etc</string>
-    <string name="header_summary_general_ui">Boot animation, bug mailer, rotacion, cambio teclado, etc</string>
+    <string name="header_summary_general_ui">Boot animation, bug mailer, rotación, cambio teclado, etc</string>
     <string name="header_summary_navigation_bar">Botones para mostrar, color barra de navegación, orden</string>
     <string name="header_summary_lockscreens">Aplicaciones personalizadas para lanzar, diseño</string>
     <string name="header_summary_power_menu">Qué va a mostrar en el menú Power</string>
@@ -30,6 +31,7 @@
     <string name="header_summary_toggles">Botones personalizados</string>
     <string name="header_summary_clock">Posicion reloj, estilo AM/PM, color</string>
     <string name="header_summary_weather">Activa/desactiva, tiempo metereologico y el intervalo</string>
+	<string name="header_summary_signal">Texto señal cobertura</string>
 	
        <string name="advanced_settings">Opciones avanzadas</string>
     <string name="misc_short">Detalles</string>
@@ -55,7 +57,7 @@
     <string name="long_press_home_summary">Qué hacer cuando mantenga presionado el boton Home. Reinicie para reflejar los cambios.</string>
     
     <string name="glow_times_title">Animación de botones</string>
-    <string name="glow_times_summary">Adjust how fast your buttons animate after you touch them. Lowering the speed can improve performance.</string>
+    <string name="glow_times_summary">Ajustar velocidad animación botones al tocarlos. Bajar la veolidad podria afectar al rendimiento.</string>
     
     <!-- Opciones visuales -->
     <string name="rotation_animation_delay_title">Velocidad de rotacion</string>
@@ -67,22 +69,109 @@
 	<string name="custom_carrier_label_title">Personalizar nombre operadora</string>
 	<string name="longpress_to_kill_title">Mantener para cerrar</string>
 	<string name="longpress_to_kill_summary">Mantener pulsado la tecla "atrás/volver para cerrar procesos abiertos</string>
+        
+        <string name="enable_volume_options">Activar opciones de volumen</string>
+	
+	<string name="rotate_180_title">Permitir rotación 180º</string>
+	<string name="rotate_180_summary">Permite a tu dispositivo mostrar la pantalla hacia abajo</string>
+
+	<string name="horizontal_recents_task_panel_title">Apps recientes en horizontal</string>
+	<string name="horizontal_recents_task_panel_summary">Usar el estilo webOS para las apps recientes. Se reinciara la UI despues de esto. Si no funciona, simplemente reinicia el dispositivo.</string>
+	
+	<string name="disable_bootanimation_title">Desactivar boot animation</string>
+	<string name="disable_bootanimation_summary">Jerk.</string>
+	
+	<string name="disable_bugmailer_title">Desactivar bugmailer</string>
+
+	<string name="lcd_density_title">Densidad LCD</string>
+	<string name="lcd_density_summary">unknown</string>
 
 	<!-- CTR animación -->
 	<string name="crt_animations_header">CTR animación</string>
 	<string name="crt_on_title">Encender CTR animación</string>
 	<string name="crt_off_title">Apagar CTR animación</string>
 
+	<!-- LCD Density -->
+	<string name="lcd_density_wizard">Asistente para densidad LCD</string>
+	<string name="follow_through_title">Siguelo hasta el final!</string>
+	<string name="follow_through_summary">Asegurate de seguir los pasos uno por uno, y completarlo todo antes de seguir con el siguiente.</string>
+	<string name="stock_density_title">1. Restablecer densidad LCD original</string>
+	<string name="stock_density_summary">Tablets y otros smartphones usan 160. La mayoria usan 240. Galaxy Nexus usa 320 por defecto.</string>
+	<string name="reboot_title">2. Reiniciar!</string>
+	<string name="reboot_summary">Vuelve aquí después de reiniciar y completa el resto de los pasos!</string>
+	<string name="clear_market_data_title">3. Borrar datos del Market</string>
+	<string name="clear_market_data_cleared">Datos del Market borrados</string>
+	<string name="open_market_title">4. Abre el Market y presiona aceptar</string>
+	<string name="open_market_summary">Presiona atrás cuando se complete para vovler aquí.</string>
+	<string name="custom_density_title">5. Definir densidad!</string>
+	<string name="custom_density_summary">Si tienes problemas de compatibilidad con el market, asegurate de volver y repetir el proceso.</string>
+
     <!-- Pantalla de bloqueo -->
-    <string name="title_pref_lockscreen_menu_unlock">Menú de desbloqueo</string>
-    <string name="summary_pref_lockscreen_menu_unlock">Legacy menu icon unlocks screen (requiere reiniciar sistema)</string>
+    <string name="pref_lockscreen_layout_title">Estilo bloqueo</string>
+    <string name="pref_lockscreen_layout_summary">Recuerda deslizarte hasta abajo y cambiar los accesos despues de cambiar estilo</string>
     
-    <string name="title_lockscreen_user_timeout_override">Demora del bloqueo de pantalla</string>
+    <string name="title_pref_lockscreen_quad_targets">Acesos Quad</string>	
+    <string name="summary_pref_lockscreen_quad_targets">Añade los accesos teléfono y mensajes en la pantalla bloqueo</string>
+
+    <string name="title_pref_lockscreen_octo_targets">Acesos Octo</string>	
+    <string name="summary_pref_lockscreen_octo_targets">Añade mas accesos a la pantalla de bloqueo</string>
+
+    <string name="title_pref_lockscreen_menu_unlock">Desbloqueo con menú</string>
+    <string name="summary_pref_lockscreen_menu_unlock">Mantener la tecla menú desbloquea la pantalla (requiere reiniciar sistema)</string>
+    <string name="title_lockscreen_user_timeout_override">Retardo del bloqueo de pantalla</string>
     <string name="summary_lockscreen_user_timeout_override">Use esta opción para que al apagar la pantalla de forma manual tarde unos segunos en bloquear.</string>
+    <string name="show_lock_before_unlock_title">Mostrar bloqueo antes de PIN/Patrón</string>
+    <string name="show_lock_before_unlock_summary">Mostrar bloqueo normal antes del bloqueo de seguridad</string>
+    <string name="lockscreen_battery_title">Porcentage bateria en bloqeo</string>
+    <string name="lockscreen_battery_summary">Mostrar siempre el porcentage de bateria en la pantalla de bloqueo</string>
+	<string name="lockscreen_weather_title">Tiempo en bloqueo</string>
+    <string name="lockscreen_weather_summary">Mostrar información del tiempo en pantalla de bloqueo. Necesitas activar el servicio de Tiempo en Opciones especiales</string>
+    <string name="volume_wake_title">Desbloqueo con volumen</string>
+    <string name="volume_wake_summary">Al presionar las teclas de volumen se desbloqueara el dispositvo.</string>
+    <string name="volume_music_controls_title">Controles de música</string>
+    <string name="volume_music_controls_summary">Larga pulsacion sobre las teclas de volumen pasaran cancion. Desbloqueo con volumen no funciona si suena una canción.</string>
+    <string name="lockscreen_show_nav_title">Ocultar botones inferiores</string>
+    <string name="lockscreen_show_nav_summary">Ocultar botones inferiores (si tu dispositivo lo soporta) en la pantalla de bloqueo.</string>
+    <string name="custom_app_n_dialog_title">Seleciona una acción para el item %1$s</string>
+    <string name="custom_app_n">App personalizada %1$s</string>
+    <string name="lockscreen_targets">Items bloqueo de patalla</string>
+    <string name="lockscreen_action_unlock">Desbloquear</string>
+    <string name="lockscreen_action_sound">Sonido ON/OFF</string>
+    <string name="lockscreen_action_camera">Cámara</string>
+    <string name="lockscreen_action_mms">SMS</string>
+    <string name="lockscreen_action_phone">Teléfono</string>
+    <string name="lockscreen_action_none">Vacio</string>
+    <string name="lockscreen_landscape_title">Bloqueo de pantalla horizontal</string>
+    <string name="lockscreen_landscape_summary">El bloqueo de pantalla en horizontal sera activado</string>
+    <string name="lockscreen_quick_unlock_control_title">Desbloqueo de PIN rápido</string>
+    <string name="lockscreen_quick_unlock_control_summary">Desbloquear bloqueo seguro sin pulsar OK</string>
+    <string name="enable_fast_torch_title">Activar linterna rápida</string>
+    <string name="enable_fast_torch_summary">Cuando la pantalla está apagada, la linterna se activara mientras se mantenga pulsado el boton POWER.</string>
+    <string name="lockscreen_wallpaper_title">Selecciona fondo pantalla de bloqueo</string>
+    <string name="lockscreen_wallpaper_summary">Puedes borrar el fondo desde el menú en esta ventana</string>
+    <string name="lockscreen_text_color_title">Color texto bloqueo pantalla</string>
+    <string name="lockscreen_calendar">Calendario en bloqueo</string>
+    <string name="lockscreen_calendar_title">Activar</string>
+    <string name="lockscreen_calendar_summary">Mostrar eventos próximos de tu calendario en la pantalla de bloqueo.</string>
+    <string name="lockscreen_calendar_sources_title">Calendarios</string>
+    <string name="lockscreen_calendar_sources_summary">Selecciona los calendarios de que deseas ver.</string>
+    <string name="lockscreen_calendar_range_title">Rango de tiempo</string>
+    <string name="lockscreen_calendar_range_summary">Selecciona el rango de tiempo que quieres mostrar.</string>
+    <string name="lockscreen_calendar_use_colors_title">Utilizar colores</string>
+    <string name="lockscreen_calendar_use_colors_summary">Si está activado, los eventos se colorean igual que en tu calendario.</string>
+    <string name="lockscreen_calendar_hide_ongoing_title">Ocultar eventos empezados</string>
+    <string name="lockscreen_calendar_hide_ongoing_summary">Si está activado, los eventos empezados no apareceran.</string>
+    <string name="lockscreen_calendar_flip_title">Eventos múltiples</string>
+    <string name="lockscreen_calendar_flip_summary">Si está activado, se mostraran multiples eventos .</string>
+    <string name="lockscreen_calendar_interval_title">Intérvalo</string>
+    <string name="lockscreen_calendar_interval_summary">Seleccionar la velocidad de animación en segundos.</string>
     
     <!-- Menú de encendido -->
     <string name="title_show_power_saver">Ver ahorro de energia</string>
-    <string name="title_show_screenshot">Ver capturar pantalla</string>
+    <string name="title_show_screenshot">Ver captura de pantalla</string>
+    <string name="title_show_torch_toggle">Ver Linterna</string>
+    <string name="title_show_airplane_toggle">Ver Modo avión</string>
+    <string name="title_show_navbar_hide">Ver Activar botones inf.</string>
     
     <!-- Ahorro de energia -->
     <string name="title_pref_powersaving_pref_mode">Activar ahorro de energía</string>
@@ -103,12 +192,18 @@
     <string name="powersaver_data_cat">Trafico de datos</string>
     <string name="powersaver_sync_cat">Sincronización</string>
 
+    <string name="screen_off_wifi_action">WIFI con pantalla apagada</string>
+    <string name="sync_data_usage">Uso de datos de sincronización</string>
+    <string name="sync_mobile_data_preference">Preferencias de sincronización con datos</string>
+
     <!--  LED -->
     <string name="title_led_on">Duración del LED encendido</string>
     <string name="summary_led_on">@null</string>
     <string name="title_led_off">Duración del LED apagado</string>
     <string name="summary_led_off">@null</string>
     <string name="led_color_title">Color del LED</string>
+    <string name="title_led_screen_on">Activa LED con pantalla encendida</string>
+    <string name="summary_led_screen_on">@null</string>
 
     <!--  Barra de estado | General -->
     <string name="title_settings_behavior">Use el comportamiento por defecto de configuración</string>
@@ -122,6 +217,12 @@
 
     <string name="adb_icon_title">Activa icono USB debugger</string>
     <string name="adb_icon_summary">@null</string>
+
+    <string name="statusbar_transparency">Transparencia</string>
+    <string name="statusbar_transparency_summary">Activando esto puedes perjudicar el rendimineto o duración de bateria. (requiere reinciar)</string>
+
+    <string name="statusbar_layout">Disposición notificaciones</string>
+    <string name="statusbar_layout_summary">Cambiar la disposicion de las notificaciones (requiere reiniciar)</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Estilo icono de bateria</string>
@@ -143,6 +244,8 @@
     <string name="reset_color_title">Volver a color por defecto</string>
     <string name="enable_alarm_title">Ver icono de alarma</string>
     <string name="enable_alarm_summary">Después de deshabilitar/habilitar, debe cambiar sus alarmas para que se muestre de nuevo o reiniciar el sistema.</string>
+    <string name="enable_clock_weekday">Dia de la semana</string>
+    <string name="enable_clock_weekday_summary">Dia de la semana abreviado antes de la hora</string>
 
     <!-- Barra de estado | Interruptores -->
     <string name="toggle_style_title">Estilo</string>
@@ -157,6 +260,14 @@
     <string name="toggles_order_summary">Elegir el orden para mostrarse</string>
     <string name="brightness_location_title">Localización del brillo</string>
     
+
+	<!-- Statusbar | Signal -->
+	<string name="signal_style">Estilo indicador señal</string>
+	<string name="signal_color_title">Color señal</string>
+	<string name="hide_signal_title">Ocultar barras señal</string>
+	<string name="hide_signal_summary">Desactivara en indicador de datos por ahora.</string>
+	<string name="wifi_signal_style">Estilo indicador WIFI</string>
+	<string name="wifi_signal_color_title">Color indicador WIFI</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selecciona color</string>
@@ -182,10 +293,13 @@
 	<string name="weather_custom_location_dialog_title">Establezca su ubicación</string>
 	<string name="weather_custom_location_dialog_message">Asegúrese de seguir los ejemplos! Configuración de una ubicación no válida se le permita recibir actualizaciones del tiempo y puede provocar un comportamiento inesperado.\n\nEjemplos: New York,NY // New York, NY // 10033 // London, England</string>
 	<string name="weather_custom_location_title">Ubicación personalizada</string>
+	<string name="weather_show_location_title">Mostrar ubicación</string>
+	<string name="weather_show_location_summary">Mostrar mi ubicación.</string>
 	<string name="weather_refresh_interval">Intervalo de actualización</string>
 	<string name="weather_use_celcius">Mostrar temperatura en grados Celsius</string>
 	<string name="weather_use_celcius_summary">Al habilitar esta mostrará la temperatura del tiempo en Ceclius en lugar de Fahrenheit.</string>
-	
+	<string name="weather_statusbar_style">Estilo tiempo en barra de estado</string>
+
 	<!-- Dialog Titles -->
 	<string name="dt_free_memory">Minfree Taskkiller</string>
 
@@ -243,8 +357,7 @@
 
 	<!-- Preference Summaries -->
 	<!-- Main -->
-	<string name="ps_performance">Set CPU, free memory &amp; customize start-up
-		settings.</string>
+	<string name="ps_performance">Establecer frequencia CPU, memoria libre y personalización del inicio.</string>
 	<string name="ps_customization">Customize the lockscreen &amp; status bar. Install
 		blur/aosp apps with Liberty Customizer</string>
 	<string name="ps_tools">Various system tools</string>
@@ -256,17 +369,17 @@
 	<string name="ps_pulldown_text">Change the text in the pulldown bar.</string>
 	<string name="ps_theme_manager">Install custom themes for Liberty ROM</string>
 	<!-- Tools -->
-	<string name="ps_spare_parts">Various tweaks and customization</string>
-	<string name="ps_dev_tools">Tools for developers and advanced users</string>
+	<string name="ps_spare_parts">Diversos tweaks y personalizaciones</string>
+	<string name="ps_dev_tools">Herramientas para desarolladores y usuarios avanzados</string>
 	<string name="ps_dsp_manager">Stand alone equalizer</string>
-	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
+	<string name="ps_testing_menu">Información del teléfono, bateria y estadísticas de uso</string>
 	<!-- Start up tweaks -->
-	<string name="ps_init_d">Configure tweaks that are run at boot
+	<string name="ps_init_d">Configurar tweaks que se ejecutan en el arranque
 		(init.d)
 	</string>
-	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
-	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
-	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+	<string name="ps_enable_init_d">Activar/Desactivar tweaks de inicio</string>
+	<string name="ps_zipalign">Zipalign de apps en cada inicio</string>
+	<string name="ps_enable_sd_boost">Activar/Desactivar augmento velocidad sdcard</string>
 	<string name="ps_sd_boost">Set value of read ahead in kb</string>
 	<string name="ps_fix_permissions">Repara permisos para aplicaciones en cada arranque</string>
 	<string name="ps_clear_cache">Limpia data cache en cada arranque</string>
