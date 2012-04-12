@@ -161,6 +161,8 @@
 	<string-array name="long_press_home_entries">
 		<item>Nedělat nic</item>
 		<item>Zobrazit poslední</item>
+    <item>Fotoaparát</item>
+		<item>Vlastní aplikace</item>
 	</string-array>
 
 	<string-array name="pref_lockscreen_options_entries">
@@ -168,6 +170,7 @@
 		<item>Quad</item>
 		<item>Octo</item>
 		<item>AOSP</item>
+    <item>Honeycomb</item>
 	</string-array>
   
   <string-array name="pref_lockscreen_calendar_interval_entries">
@@ -304,5 +307,25 @@
 		<item>36 bodů</item>
 		<item>30 bodů</item>
 		<item>24 bodů</item>
+	</string-array>
+  
+  <string-array name="navigation_bar_qty_entries">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+  
+  <string-array name="navbar_button_entries">
+		<item>Domů</item>
+		<item>Zpět</item>
+		<item>Přepínač aplikací</item>
+		<item>Hledat</item>
+		<item>Menu</item>
+		<item>Kilnout aplikaci</item>
+		<item>Napájení</item>
+		<item>Vlastní aplikace</item>
+		<item>Prázdné</item>
 	</string-array>
 </resources>

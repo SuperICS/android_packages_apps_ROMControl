@@ -47,9 +47,26 @@
 
     <string name="navbar_order_title">Navigation button order</string>
     <string name="navbar_order_summary">Customize the order of your soft keys</string>
+    
+    <string name="navbar_button_cat">Navigation bar buttons</string>
+    
+    <string name="navbar_qty_title">Navigation button quantity</string>
+    <string name="navbar_qty_summary">Choose the number of navigation buttons</string>
 
     <string name="enabled_navbar_buttons_title">Enabled buttons</string>
     <string name="enabled_navbar_buttons_summary">Choose which soft keys you would like to see</string>
+    
+    <string name="navbar_action_title">Button %1$s action &amp; icon</string>
+    <string name="navbar_longpress_title">Button %1$s longpress action</string>
+    
+    <string name="navbar_action_home">Home</string>
+    <string name="navbar_action_back">Back</string>
+    <string name="navbar_action_recents">Recents</string>
+    <string name="navbar_action_search">Search</string>
+    <string name="navbar_action_menu">Menu</string>
+    <string name="navbar_action_kill">Kill task</string>
+    <string name="navbar_action_power">Power</string>
+    <string name="navbar_action_none">Empty</string>
     
     <string name="button_transparency_title">Nav button transparency</string>
     
@@ -70,7 +87,7 @@
 	<string name="longpress_to_kill_title">Hold back to kill</string>
 	<string name="longpress_to_kill_summary">Holding back will kill the current activity</string>
         
-        <string name="enable_volume_options">Enable Volume Options</string>
+    <string name="enable_volume_options">Enable Volume Options</string>
 	
 	<string name="rotate_180_title">Allow 180° rotation</string>
 	<string name="rotate_180_summary">Allow your device to rotate upside down!</string>
@@ -419,7 +436,7 @@
 	<string name="donate_whitehawk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8W7F2Y7S7KRM6</string>
 	<string name="donate_zaph">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AW4DJFL3UWKS2</string>
 	<string name="donate_protekk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YJTUMSBC2TRHS</string>
-	<string name="donate_khasmek">@null</string>
+	<string name="donate_khasmek">http://nyan.cat</string>
 	<string name="donate_sethyx">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5R4DYJLDYDRAU</string>
 	<string name="devs">Developers</string>
 	<string name="aokp">Android Open Kang Project</string>
