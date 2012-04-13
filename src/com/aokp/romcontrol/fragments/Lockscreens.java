@@ -140,7 +140,7 @@ public class Lockscreens extends AOKPPreferenceFragment implements
         mLockscreenOption = (ListPreference) findPreference(PREF_LOCKSCREEN_LAYOUT);
         mLockscreenOption.setOnPreferenceChangeListener(this);
         mLockscreenOption.setValue(Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.LOCKSCREEN_LAYOUT, 0) + "");
+                Settings.System.LOCKSCREEN_LAYOUT, 2) + "");
 
         mLockscreenBattery = (CheckBoxPreference) findPreference(PREF_LOCKSCREEN_BATTERY);
         mLockscreenBattery.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
@@ -431,7 +431,7 @@ public class Lockscreens extends AOKPPreferenceFragment implements
     public void refreshSettings() {
 
         int lockscreenTargets = Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_LAYOUT, 0);
+                Settings.System.LOCKSCREEN_LAYOUT, 2);
 
         PreferenceGroup targetGroup = (PreferenceGroup) findPreference("lockscreen_targets");
         targetGroup.removeAll();
