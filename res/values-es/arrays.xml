@@ -475,7 +475,6 @@
 		<item>Silencio</item>
 		<item>Linterna</item>
 		<item>Sincronización</item>
-		<item>SWAGGER</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
@@ -488,7 +487,6 @@
 		<item>Silencio</item>
 		<item>Linterna</item>
 		<item>Sincronización</item>
-		<item>Swagger</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">
@@ -677,5 +675,17 @@
 		<item>36</item>
 		<item>30</item>
 		<item>24</item>
+	</string-array>
+
+	<string-array name="navbar_button_entries">
+		<item>Home</item>
+		<item>Atras</item>
+		<item>Recientes</item>
+		<item>Busqueda</item>
+		<item>Menu</item>
+		<item>Matar tarea</item>
+		<item>Power</item>
+		<item>Aplicación personalizada</item>
+		<item>Vacio</item>
 	</string-array>
 </resources>

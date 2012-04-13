@@ -48,8 +48,25 @@
     <string name="navbar_order_title">Orden de los botones de navegación</string>
     <string name="navbar_order_summary">Personalizar el orden de las teclas de función</string>
 
+    <string name="navbar_button_cat">Botones de navegación</string>
+    
+    <string name="navbar_qty_title">Número de botones</string>
+    <string name="navbar_qty_summary">Escoje el número de botnoes</string>
+
     <string name="enabled_navbar_buttons_title">Activado botones</string>
     <string name="enabled_navbar_buttons_summary">Elija qué teclas de función que le gustaría ver</string>
+
+    <string name="navbar_action_title">Boton %1$s acción &amp; icono</string>
+    <string name="navbar_longpress_title">Boton %1$s acción matenida</string>
+    
+    <string name="navbar_action_home">Home</string>
+    <string name="navbar_action_back">Atras</string>
+    <string name="navbar_action_recents">Recientes</string>
+    <string name="navbar_action_search">Busqueda</string>
+    <string name="navbar_action_menu">Menu</string>
+    <string name="navbar_action_kill">Matar tarea</string>
+    <string name="navbar_action_power">Power</string>
+    <string name="navbar_action_none">Vacio</string>
     
     <string name="button_transparency_title">Transparencia del botón de navegación</string>
     
@@ -259,6 +276,8 @@
     <string name="toggles_order_title">Ordenar los interruptores</string>
     <string name="toggles_order_summary">Elegir el orden para mostrarse</string>
     <string name="brightness_location_title">Localización del brillo</string>
+    <string name="reset_toggles_title">Resetear interruptores</string>
+    <string name="reset_toggles_summary">Resetea todos los interruptores</string>
     
 
 	<!-- Statusbar | Signal -->
