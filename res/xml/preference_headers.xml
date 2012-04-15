@@ -104,7 +104,7 @@
 
 	<header
 		android:id="@+id/about"
-		android:fragment="com.roman.romcontrol.fragments.About"
+		android:fragment="com.aokp.romcontrol.fragments.About"
 		android:title="@string/about_aokp"
 		android:summary="@string/about_aokp_summary" />
     <header
