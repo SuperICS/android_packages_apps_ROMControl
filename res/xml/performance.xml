@@ -58,7 +58,7 @@
 		android:title="@string/prefcat_tweaks">
     <PreferenceScreen
         android:key="memory_management"
-        android:fragment="com.roman.romcontrol.fragments.MemoryManagement"
+        android:fragment="com.aokp.romcontrol.fragments.MemoryManagement"
         android:title="@string/memory_management_title"
         android:summary="@string/memory_management_summary" />
 	<CheckBoxPreference
