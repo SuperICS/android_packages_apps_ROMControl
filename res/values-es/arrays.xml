@@ -8,15 +8,6 @@
 		<item>Eliminar</item>
 	</string-array>
 
-	<!-- right is the default, easier to keep 0 as first index -->
-	<string-array name="pref_navigation_menu_values"
-		translatable="false">
-		<item>0</item>
-		<item>1</item>
-		<item>2</item>
-		<item>4</item>
-	</string-array>
-
 	<string-array name="pref_powersaving_data_screen_off_entries_cdma">
 		<item>No hacer nada</item>
 		<item>Apagar LTE</item>
@@ -256,15 +247,16 @@
 	</string-array>
 	
 	<string-array name="available_toggles_entries" translatable="false">
-		<item>Rotación</item>
+		<item>ROTATE</item>
 		<item>BT</item>
 		<item>GPS</item>
-		<item>Wi-Fi</item>
-		<item>Modo avión</item>
-		<item>Vibración</item>
-		<item>Silencio</item>
-		<item>Linterna</item>
-		<item>Sincronización</item>
+		<item>WIFI</item>
+		<item>AIRPLANE_MODE</item>
+		<item>VIBRATE</item>
+		<item>SILENT</item>
+		<item>TORCH</item>
+		<item>SYNC</item>
+		<item>SWAGGER</item>
 	</string-array>
 
 	<string-array name="available_toggles_values">
@@ -277,6 +269,8 @@
 		<item>Silencio</item>
 		<item>Linterna</item>
 		<item>Sincronización</item>
+		<item>Swagger</item>
+
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">

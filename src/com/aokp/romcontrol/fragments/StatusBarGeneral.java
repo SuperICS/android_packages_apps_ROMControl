@@ -21,7 +21,7 @@ public class StatusBarGeneral extends AOKPPreferenceFragment implements
 
     private static final String PREF_SETTINGS_BUTTON_BEHAVIOR = "settings_behavior";
     private static final String PREF_AUTO_HIDE_TOGGLES = "auto_hide_toggles";
-    private static final String PREF_BRIGHTNESS_TOGGLE = "status_bar_brightness_toggle";
+   // private static final String PREF_BRIGHTNESS_TOGGLE = "status_bar_brightness_toggle";
     private static final String PREF_ICON_TRANSPARENCY = "status_bar_icon_transparency";
     private static final String PREF_ADB_ICON = "adb_icon";
     private static final String PREF_TRANSPARENCY = "status_bar_transparency";
@@ -30,7 +30,7 @@ public class StatusBarGeneral extends AOKPPreferenceFragment implements
 
     CheckBoxPreference mDefaultSettingsButtonBehavior;
     CheckBoxPreference mAutoHideToggles;
-    CheckBoxPreference mStatusBarBrightnessToggle;
+ //   CheckBoxPreference mStatusBarBrightnessToggle;
     SeekBarPreference mIconAlpha;
     CheckBoxPreference mAdbIcon;
     ListPreference mTransparency;
@@ -58,10 +58,10 @@ public class StatusBarGeneral extends AOKPPreferenceFragment implements
                 .getContentResolver(), Settings.System.STATUSBAR_QUICKTOGGLES_AUTOHIDE,
                 0) == 1);
 
-        mStatusBarBrightnessToggle = (CheckBoxPreference) findPreference(PREF_BRIGHTNESS_TOGGLE);
+    /*    mStatusBarBrightnessToggle = (CheckBoxPreference) findPreference(PREF_BRIGHTNESS_TOGGLE);
         mStatusBarBrightnessToggle.setChecked(Settings.System.getInt(mContext
                 .getContentResolver(), Settings.System.STATUS_BAR_BRIGHTNESS_TOGGLE,
-                0) == 1);
+                0) == 1);*/
         
         float defaultAlpha = Settings.System.getFloat(getActivity()
                 .getContentResolver(), Settings.System.STATUS_BAR_ICON_TRANSPARENCY,
@@ -94,7 +94,7 @@ public class StatusBarGeneral extends AOKPPreferenceFragment implements
 
         if (mTablet) {
             PreferenceScreen prefs = getPreferenceScreen();
-            prefs.removePreference(mStatusBarBrightnessToggle);
+        //    prefs.removePreference(mStatusBarBrightnessToggle);
             prefs.removePreference(mAutoHideToggles);
             prefs.removePreference(mDefaultSettingsButtonBehavior);
             prefs.removePreference(mTransparency);
@@ -121,13 +121,13 @@ public class StatusBarGeneral extends AOKPPreferenceFragment implements
                     ((CheckBoxPreference) preference).isChecked() ? 1 : 0);
             return true;
 
-        } else if (preference == mStatusBarBrightnessToggle) {
+      /*  } else if (preference == mStatusBarBrightnessToggle) {
 
             Log.e("LOL", "m");
             Settings.System.putInt(mContext.getContentResolver(),
                     Settings.System.STATUS_BAR_BRIGHTNESS_TOGGLE,
                     ((CheckBoxPreference) preference).isChecked() ? 1 : 0);
-            return true;
+            return true;*/
 
         } else if (preference == mAdbIcon) {
 
