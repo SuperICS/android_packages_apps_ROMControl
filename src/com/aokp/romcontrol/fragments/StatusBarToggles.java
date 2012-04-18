@@ -137,7 +137,7 @@ public class StatusBarToggles extends PreferenceFragment implements OnPreference
 
         } else if (preference == mResetToggles) {
             Settings.System.putString(getActivity().getContentResolver(),
-                    Settings.System.STATUSBAR_TOGGLES, "WIFI");
+                    Settings.System.STATUSBAR_TOGGLES, "WIFI|BT|GPS|ROTATE|DATA|2G");
             return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
