@@ -61,7 +61,7 @@
     <string name="enabled_navbar_buttons_summary">Elija qué teclas de función que le gustaría ver</string>
 
     <string name="navbar_action_title">Boton %1$s acción &amp; icono</string>
-    <string name="navbar_longpress_title">Boton %1$s acción matenida</string>
+    <string name="navbar_longpress_title">Boton %1$s acción mantenida</string>
     
     <string name="navbar_action_home">Home</string>
     <string name="navbar_action_back">Atras</string>
