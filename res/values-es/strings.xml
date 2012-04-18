@@ -6,6 +6,7 @@
     <string name="user_interface">Interfaz de usuario</string>
     <string name="general_ui">Cambios visuales</string>
     <string name="lockscreen_options">Bloqueo de pantalla</string>
+    <string name="reset_lockscreen">Resetea wallpaper del lockscreen</string>
     <string name="power_menu_optons">Botón de encendio</string>
     <string name="functionality">Funciones</string>
     <string name="power_saver">Ahorro de energía</string>
@@ -16,6 +17,7 @@
     <string name="clock">Reloj</string>
     <string name="battery">Batería</string>
     <string name="nav_bar">Botones inferiores</string>
+    <string name="reset_nav_bar">Resetea Nav Bar</string>
     <string name="tools">Herramientas</string>
     <string name="weather">Tiempo</string>
     <string name="signal">Señal</string>
@@ -41,6 +43,8 @@
     <string name="summary_pref_menu_display">Posición del boton menú</string>
     <string name="navigation_bar">Botones inferiores</string>
     <string name="navigation_bar_tint_title">Color botones inferiores</string>
+    <string name="navigation_bar_glow_tint_title">Color de resplandor barra de navegación</string>
+    <string name="navigation_bar_glow_tint_summary">Al pulsar en un botón, hay un resplandor. Utilizalo para cambiar el color.</string>
 
     <string name="title_pref_navigation_menu_display">Visibilidad de menú</string>
     <string name="summary_pref_navigation_menu_display">¿Cómo y cuándo desea que los botones de menú aparezcan?</string>
@@ -240,6 +244,8 @@
 
     <string name="statusbar_layout">Disposición notificaciones</string>
     <string name="statusbar_layout_summary">Cambiar la disposición de las notificaciones (requiere reiniciar)</string>
+    <string name="statusbar_fontsize">Tamaño fuente barra de estado</string>
+    <string name="statusbar_fontsize_summary">Cambiar el tamaño de los elementos de texto en la barra de estado</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Estilo icono de batería</string>
@@ -305,6 +311,7 @@
 	<string name="group_applications">Aplicaciones</string>
 	
 	<!-- Weather -->
+	<string name="get_weather">Actualiza tiempo</string>
 	<string name="weather_enable">Activa tiempo</string>
 	<string name="weather_enable_summary">Ya sea para mostrar la información meteorológica y mostrarla en todo el sistema.</string>
 	<string name="weather_use_custom_location">Usa localización personalizada</string>
@@ -318,6 +325,11 @@
 	<string name="weather_use_celcius">Mostrar temperatura en grados Celsius</string>
 	<string name="weather_use_celcius_summary">Al habilitar esta mostrará la temperatura del tiempo en Ceclius en lugar de Fahrenheit.</string>
 	<string name="weather_statusbar_style">Estilo tiempo en barra de estado</string>
+        <string name="weather_start_custom_app">Aplicación personalizada</string>
+        <string name="weather_start_custom_app_summary">Activa una aplicación cuando presiones la imagen del tiempo.</string>
+        <string name="weather_custom_app_title">Aplicación personalizada</string>
+        <string name="weather_custom_app_dialog_title">Escoge una aplicación</string>
+	<string name="weather_custom_app_dialog_message">Nombre del paquete por ahora.</string>
 
 	<!-- Dialog Titles -->
 	<string name="dt_free_memory">Minfree Taskkiller</string>

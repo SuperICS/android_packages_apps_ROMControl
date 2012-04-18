@@ -6,6 +6,7 @@
     <string name="user_interface">User Interface</string>
     <string name="general_ui">General UI</string>
     <string name="lockscreen_options">Lockscreen options</string>
+    <string name="reset_lockscreen">Reset lockscreen wallpaper</string>
     <string name="power_menu_optons">Power menu options</string>
     <string name="functionality">Functionality</string>
     <string name="power_saver">Power saver</string>
@@ -16,6 +17,7 @@
     <string name="clock">Clock</string>
     <string name="battery">Battery</string>
     <string name="nav_bar">Navigation bar</string>
+    <string name="reset_nav_bar">Reset Nav Bar</string>
     <string name="tools">Tools</string>
     <string name="weather">Weather</string>
     <string name="signal">Signal</string>
@@ -310,6 +312,7 @@
 	<string name="group_applications">Applications</string>
 
 	<!-- Weather -->
+	<string name="get_weather">Get weather</string>
 	<string name="weather_enable">Enable weather</string>
 	<string name="weather_enable_summary">Whether to pull weather information and display it throughout the ROM.</string>
 	<string name="weather_use_custom_location">Use custom location</string>
