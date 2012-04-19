@@ -61,7 +61,7 @@
     <string name="enabled_navbar_buttons_summary">Elija qué teclas de función que le gustaría ver</string>
 
     <string name="navbar_action_title">Boton %1$s acción &amp; icono</string>
-    <string name="navbar_longpress_title">Boton %1$s acción mantenida</string>
+    <string name="navbar_longpress_title">Boton %1$s acción matenida</string>
     
     <string name="navbar_action_home">Home</string>
     <string name="navbar_action_back">Atras</string>
@@ -471,4 +471,61 @@
     <string name="pref_ksm_title">Kernel samepage fusión</string>
     <string name="pref_ksm_summary">KSM reduce los requisitos de memoria física y mejora el rendimiento</string>
     <!-- **** SUPEROSR END **** -->
+
+    <!-- Weather Codes -->
+    <string name="weather_0">Tornado</string>
+    <string name="weather_1">Tormenta tropical</string>
+    <string name="weather_2">Huracán</string>
+    <string name="weather_3">Tormenta fuerte</string>
+    <string name="weather_4">Tormenta</string>
+    <string name="weather_5">Lluvia y nieve</string>
+    <string name="weather_6">Lluvia y aguanieve</string>
+    <string name="weather_7">Nieve y aguanieve</string>
+    <string name="weather_8">Llovizna helada</string>
+    <string name="weather_9">Llovizna</string>
+    <string name="weather_10">Lluvia helada</string>
+    <string name="weather_11">Chubascos</string>
+    <string name="weather_12">Chubascos</string>
+    <string name="weather_13">Copos de nieve</string>
+    <string name="weather_14">Nevadas moderadas</string>
+    <string name="weather_15">Nevadas</string>
+    <string name="weather_16">Nieve</string>
+    <string name="weather_17">Granizo</string>
+    <string name="weather_18">Aguanieve</string>
+    <string name="weather_19">Polvo</string>
+    <string name="weather_20">Niebla</string>
+    <string name="weather_21">Neblina</string>
+    <string name="weather_22">Humo</string>
+    <string name="weather_23">Tormentas</string>
+    <string name="weather_24">Ventoso</string>
+    <string name="weather_25">Heladas</string>
+    <string name="weather_26">Nublado</string>
+    <!-- mostly cloudy (night) -->
+    <string name="weather_27">Mayormente nublado</string>
+    <!-- mostly cloudy (day) -->
+    <string name="weather_28">Mayormente nublado</string>
+    <!-- partly cloudy (night) -->
+    <string name="weather_29">Parcialmente nublado</string>
+    <!-- partly cloudy (day) -->
+    <string name="weather_30">Parcialmente nublado</string>
+    <!-- clear (night) -->
+    <string name="weather_31">Claro</string>
+    <string name="weather_32">Soleado</string>
+    <!-- fair (night) -->
+    <string name="weather_33">Despejado</string>
+    <!-- fair (day) -->
+    <string name="weather_34">Fair</string>
+    <string name="weather_35">Lluvia y granizo</string>
+    <string name="weather_36">Soleado</string>
+    <string name="weather_37">Tormentas eléctricas aisladas</string>
+    <string name="weather_38">Tormentas eléctricas</string>
+    <string name="weather_39">Tormentas eléctricas</string>
+    <string name="weather_40">Lluvia dispersa</string>
+    <string name="weather_41">Nevadas fuertes</string>
+    <string name="weather_42">Nevadas aisladas</string>
+    <string name="weather_43">Nevadas aisladas</string>
+    <string name="weather_44">Parcialmente nublado</string>
+    <string name="weather_45">Tormentoso</string>
+    <string name="weather_46">Nevadas</string>
+    <string name="weather_47">Tormentas eléctricas aisladas</string>
 </resources>
