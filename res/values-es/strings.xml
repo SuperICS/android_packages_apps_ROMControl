@@ -45,6 +45,8 @@
     <string name="navigation_bar_tint_title">Color botones inferiores</string>
     <string name="navigation_bar_glow_tint_title">Color de resplandor barra de navegación</string>
     <string name="navigation_bar_glow_tint_summary">Al pulsar en un botón, hay un resplandor. Utilizalo para cambiar el color.</string>
+    <string name="navigation_bar_height_title">Alto de barra de navegación</string>
+    <string name="navigation_bar_width_title">Ancho de barra de Navigation</string>
 
     <string name="title_pref_navigation_menu_display">Visibilidad de menú</string>
     <string name="summary_pref_navigation_menu_display">¿Cómo y cuándo desea que los botones de menú aparezcan?</string>
@@ -88,6 +90,8 @@
 	<string name="ime_switcher_summary">En la barra de estado, mientras se escribe (requiere reiniciar sistema)</string>
 
 	<string name="custom_carrier_label_title">Personalizar nombre operadora</string>
+	<string name="custom_carrier_label_empty">Por favor, introduzca uno nuevo!</string>
+	<string name="custom_carrier_label_warning">Etiqueta personalizada no se encuentra activada. Una vez que se especifica una nombre, no hay vuelta atras sin hacer wipe</string>
 	<string name="longpress_to_kill_title">Mantener para cerrar</string>
 	<string name="longpress_to_kill_summary">Mantener pulsado la tecla "atrás/volver para cerrar procesos abiertos</string>
         
@@ -279,6 +283,8 @@
     
     <string name="enabled_toggles_title">Activar interruptores</string>
     <string name="enabled_toggles_summary">Cambio de interruptores en pantalla</string>
+    <string name="toggles_display_dialog">Escoje qye interruptores usar</string>
+    <string name="toggles_display_close">Cerrar</string>
     <string name="toggles_order_title">Ordenar los interruptores</string>
     <string name="toggles_order_summary">Elegir el orden para mostrarse</string>
     <string name="brightness_location_title">Localización del brillo</string>
