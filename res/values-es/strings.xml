@@ -283,7 +283,7 @@
     
     <string name="enabled_toggles_title">Activar interruptores</string>
     <string name="enabled_toggles_summary">Cambio de interruptores en pantalla</string>
-    <string name="toggles_display_dialog">Escoje qye interruptores usar</string>
+    <string name="toggles_display_dialog">Escoge que interruptores usar</string>
     <string name="toggles_display_close">Cerrar</string>
     <string name="toggles_order_title">Ordenar los interruptores</string>
     <string name="toggles_order_summary">Elegir el orden para mostrarse</string>
@@ -520,7 +520,7 @@
     <!-- fair (night) -->
     <string name="weather_33">Despejado</string>
     <!-- fair (day) -->
-    <string name="weather_34">Fair</string>
+    <string name="weather_34">Despejado</string>
     <string name="weather_35">Lluvia y granizo</string>
     <string name="weather_36">Soleado</string>
     <string name="weather_37">Tormentas eléctricas aisladas</string>
