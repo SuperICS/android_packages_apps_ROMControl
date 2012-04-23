@@ -489,11 +489,7 @@
 		<item>SILENT</item>
 		<item>TORCH</item>
 		<item>SYNC</item>
-		<item>AP</item>
-		<item>DATA</item>
-		<item>2G</item>
 		<item>SWAGGER</item>
-        	<item>FCHARGE</item>
 	</string-array>
 
 	<string-array name="available_toggles_values">
@@ -506,11 +502,7 @@
 		<item>Silent</item>
 		<item>Torch</item>
 		<item>Sync</item>
-		<item>Tethering (AP)</item>
-		<item>Data</item>
-		<item>2G</item>
 		<item>Swagger</item>
-        	<item>Fast charge</item>
 	</string-array>
 
 	<string-array name="lockscreen_choice_entries">

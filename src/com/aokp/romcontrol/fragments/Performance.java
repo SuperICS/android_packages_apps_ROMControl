@@ -177,7 +177,14 @@ public class Performance extends AOKPPreferenceFragment implements
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         String key = preference.getKey();
 
-        if (KEY_FASTCHARGE.equals(key)) {
+        if (preference == mUseDitheringPref) {
+            SystemProperties.set(USE_DITHERING_PERSIST_PROP,
+                    mUseDitheringPref.isChecked() ? "1" : "0");
+        } else if (preference == mUse16bppAlphaPref) {
+            SystemProperties.set(USE_16BPP_ALPHA_PROP,
+                    mUse16bppAlphaPref.isChecked() ? "1" : "0");
+
+        } else if (KEY_FASTCHARGE.equals(key)) {
             if (preferences.getBoolean(KEY_FASTCHARGE, false)) {
                 Resources res = getActivity().getResources();
                 String warningMessage = res.getString(R.string.fast_charge_warning);
@@ -373,7 +380,7 @@ public class Performance extends AOKPPreferenceFragment implements
     }
 
 
-    @Override
+/*    @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mUseDitheringPref) {
             SystemProperties.set(USE_DITHERING_PERSIST_PROP,
@@ -388,5 +395,5 @@ public class Performance extends AOKPPreferenceFragment implements
 
         return true;
     }
-
+*/
 }
