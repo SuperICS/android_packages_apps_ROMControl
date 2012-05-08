@@ -65,7 +65,7 @@ public class StatusBarGeneral extends AOKPPreferenceFragment implements
         
         float defaultAlpha = Settings.System.getFloat(getActivity()
                 .getContentResolver(), Settings.System.STATUS_BAR_ICON_TRANSPARENCY,
-                0.55f);
+                0.80f);
         mIconAlpha = (SeekBarPreference) findPreference("icon_transparency");
         mIconAlpha.setInitValue((int) (defaultAlpha * 100));
         mIconAlpha.setOnPreferenceChangeListener(this);

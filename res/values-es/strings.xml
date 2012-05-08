@@ -240,6 +240,8 @@
     <string name="title_status_bar_brightness_toggle">Activa control de brillo</string>
     <string name="summary_status_bar_brightness_toggle">Deslice el dedo lentamente a través de la barra de estado para ajustar la configuración de brillo</string>
 
+    <string name="icon_transparency_title">Transparencia icono de notificación</string>
+
     <string name="adb_icon_title">Activa icono USB debugger</string>
     <string name="adb_icon_summary">@null</string>
 
@@ -341,7 +343,7 @@
 	<string name="dt_free_memory">Minfree Taskkiller</string>
 
 	<!-- Preference Categories -->
-	<string name="prefcat_cpu">Set CPU</string>
+	<string name="prefcat_cpu">Establece CPU</string>
 	<string name="prefcat_free_memory">Memoria libre</string>
 	<string name="prefcat_tweaks">Avanzado</string>
 	<string name="pc_tweaks">Ajustes</string>
@@ -384,9 +386,10 @@
 	<string name="pt_set_min">Min CPU</string>
 	<string name="pt_set_gov">Scaling governor</string>
 	<string name="pt_cpu_boot">Establece en arranque</string>
+        <string name="pt_volt_control">Control de Voltage</string>
         <!-- Scrolling Cache -->
-        <string name="pref_scrollingcache_title">Scrolling cache</string>
-        <string name="pref_scrollingcache_summary">Scrolling cache  puede mejorar el rendimiento de desplazamiento en el coste de la memoria</string>
+        <string name="pref_scrollingcache_title">Cache de scroll</string>
+        <string name="pref_scrollingcache_summary">El cache del scroll puede mejorar el rendimiento de desplazamiento en el coste de la memoria</string>
         <string name="pref_scrollingcache_force_enable">Fuerza activado</string>
         <string name="pref_scrollingcache_default_enable">Por defecto activado</string>
         <string name="pref_scrollingcache_default_disable">Por defecto desactivado</string>
@@ -477,6 +480,23 @@
     <string name="pref_ksm_title">Kernel samepage fusión</string>
     <string name="pref_ksm_summary">KSM reduce los requisitos de memoria física y mejora el rendimiento</string>
     <!-- **** SUPEROSR END **** -->
+
+    <!--  Kernel Tweaks -->
+    <string name="pt_fast_charge_boot">Carga rápida</string>
+    <string name="ps_fast_charge_boot">Activa carga rápida en arranque</string>
+    <string name="fast_charge_warning">NO SERÁS CAPAZ DE conectarte a tu PC después de cada reinicio!\n\nEl valor se establece de carga rápida en ON después de cada reinicio. Mientras que la carga rápida este activada, solo se puede cargar el teléfono!!</string>
+    <string name="fast_charge_notification_title">Carga rápida esta activada!</string>
+    <string name="fast_charge_notification_message">Teléfono esta en modo carga solo!</string>
+
+    <string name="kernel">Kernel Tweaks (si estan soportados)</string>
+    <string name="color_tuning_title_head">Ajustes de multiplicadores de color</string>
+    <string name="color_tuning_summary_head">Calibra multiplicadores de color</string>
+    <string name="gamma_tuning_title_head">Ajustes de Color Gamma</string>
+    <string name="gamma_tuning_summary_head">Calibra correcón de color gamma</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+    <string name="reset_defaults">Resetea por defecto</string>
 
     <!-- Weather Codes -->
     <string name="weather_0">Tornado</string>
