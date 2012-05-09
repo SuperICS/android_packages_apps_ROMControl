@@ -105,6 +105,10 @@
 	
 	<string name="disable_bootanimation_title">Desactivar boot animation</string>
 	<string name="disable_bootanimation_summary">Permite desactivar la animación al encendido</string>
+
+	<string name="disable_bootaudio_title">Desactivar sonido de arranque</string>
+	<string name="disable_bootaudio_summary">Tranquilo.</string>
+	<string name="disable_bootaudio_summary_disabled">Para activar el sonido de arranque, debe tener un archivo MP3 en \n/system/media/boot_audio.mp3</string>
 	
 	<string name="disable_bugmailer_title">Desactivar bugmailer</string>
 
