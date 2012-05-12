@@ -107,6 +107,9 @@
 	<string name="recent_app_switcher_title">Recents window style</string>
 	<string name="recent_app_switcher_summary">Change the recents window style (requires UI restart)</string>
 
+	<string name="horizontal_recents_task_panel_title">Recent apps in horizontal</string>
+	<string name="horizontal_recents_task_panel_summary">Use webOS style for recent apps. Requieres UI restart after this. If doesn\'t work, reboot device.</string>
+
 	<string name="disable_bootanimation_title">Disable boot animation</string>
 	<string name="disable_bootanimation_summary">Jerk.</string>
 
@@ -159,6 +162,8 @@
     <string name="lockscreen_battery_summary">Always show battery percentage on the lockscreen</string>
 	<string name="lockscreen_weather_title">Lockscreen Weather</string>
     <string name="lockscreen_weather_summary">Show Weather Information on Lockscreen. You need to enable ROMControl\'s Weather service to use this</string>
+    <string name="sms_picker_title">Custom messaging app</string>
+    <string name="sms_picker_summary">Launch a custom application when shortcut is used</string>
     <string name="volume_wake_title">Volume wake</string>
     <string name="volume_wake_summary">Tapping the volume keys while your phone is off will turn the screen on.</string>
     <string name="volume_music_controls_title">Volume music controls</string>
@@ -223,6 +228,9 @@
     <string name="title_pref_powersaving_sync_screen_off_delay">Sync time interval</string>
     <string name="summary_pref_powersaving_sync_screen_off_delay">How long to wait between each forced sync</string>
 
+    <string name="title_pref_navigation_layout">Set navigation bar</string>
+    <string name="summary_pref_navigation_layout">The change requires a restart of the bar!</string>
+
     <string name="powersaver_data_cat">Data</string>
     <string name="powersaver_sync_cat">Sync</string>
 
@@ -265,6 +273,8 @@
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Battery icon style</string>
+    <string name="battery_title_text_widget">Show battery percentage</string>
+    <string name="battery_title_text_widget_center">Center battery percentage</string>
     <string name="battery_summary_text_widget">@null</string>
     <string name="battery_bar">Battery bar location</string>
     <string name="battery_bar_color">Battery bar color</string>

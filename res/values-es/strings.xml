@@ -158,6 +158,8 @@
     <string name="lockscreen_battery_summary">Mostrar siempre el porcentaje de batería en la pantalla de bloqueo</string>
 	<string name="lockscreen_weather_title">Tiempo en bloqueo</string>
     <string name="lockscreen_weather_summary">Mostrar información del tiempo en pantalla de bloqueo. Necesitas activar el servicio de Tiempo en Opciones especiales</string>
+    <string name="sms_picker_title">Aplicación de mensajería personalizada</string>
+	<string name="sms_picker_summary">Ejecutar una aplicación de mensajería personalizada cuando se utilice el acceso directo</string>
     <string name="volume_wake_title">Desbloqueo con volumen</string>
     <string name="volume_wake_summary">Al presionar las teclas de volumen se desbloqueará el dispositvo.</string>
     <string name="volume_music_controls_title">Controles de música</string>
@@ -221,6 +223,9 @@
     <string name="title_pref_powersaving_sync_screen_off_delay">Intervalo de sincronización</string>
     <string name="summary_pref_powersaving_sync_screen_off_delay">¿Cuánto tiempo debe esperar entre cada sincronización?</string>
 
+    <string name="title_pref_navigation_layout">Gestionar barra de navegación</string>
+    <string name="summary_pref_navigation_layout">Los cambios requieren reiniciar la barra!</string>
+
     <string name="powersaver_data_cat">Tráfico de datos</string>
     <string name="powersaver_sync_cat">Sincronización</string>
 
@@ -262,6 +267,8 @@
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Estilo icono de batería</string>
+    <string name="battery_title_text_widget">Mostrar porcentaje de batería</string>
+    <string name="battery_title_text_widget_center">Centrar porcentaje de batería</string>
     <string name="battery_summary_text_widget">@null</string>
     <string name="battery_bar">Posición barra batería</string>
     <string name="battery_bar_color">Color barra batería</string>
