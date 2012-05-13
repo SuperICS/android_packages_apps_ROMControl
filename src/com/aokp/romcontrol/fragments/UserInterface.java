@@ -52,7 +52,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
     ListPreference mHomeLongpress;
     Preference mLcdDensity;
     CheckBoxPreference mDisableBootAnimation;
-    CheckBoxPreference mDisableBugMailer;
 
     String mCustomLabelText = null;
     int newDensityValue;
@@ -119,9 +118,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
         mDisableBootAnimation.setChecked(!new File("/system/media/bootanimation.zip").exists());
         if (mDisableBootAnimation.isChecked())
             mDisableBootAnimation.setSummary(R.string.disable_bootanimation_summary);
-
-        mDisableBugMailer = (CheckBoxPreference) findPreference("disable_bugmailer");
-        mDisableBugMailer.setChecked(!new File("/system/bin/bugmailer.sh").exists());
 
         mHomeLongpress = (ListPreference) findPreference(PREF_HOME_LONGPRESS);
         mHomeLongpress.setOnPreferenceChangeListener(this);
@@ -256,20 +252,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
             }
             return true;
 
-        } else if (preference == mDisableBugMailer) {
-            boolean checked = ((CheckBoxPreference) preference).isChecked();
-            if (checked) {
-                Helpers.getMount("rw");
-                new CMDProcessor().su
-                        .runWaitFor("mv /system/bin/bugmailer.sh /system/bin/bugmailer.sh.unicorn");
-                Helpers.getMount("ro");
-            } else {
-                Helpers.getMount("rw");
-                new CMDProcessor().su
-                        .runWaitFor("mv /system/bin/bugmailer.sh.unicorn /system/bin/bugmailer.sh");
-                Helpers.getMount("ro");
-            }
-            return true;
         } else if (preference == mLcdDensity) {
             ((PreferenceActivity) getActivity())
                     .startPreferenceFragment(new DensityChanger(), true);

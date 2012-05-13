@@ -21,7 +21,7 @@
     <string name="signal">Empfang</string>
 
     <string name="header_summary_battery">Batterie-Leiste, 1 % Batterie Mod etc.</string>
-    <string name="header_summary_general_ui">Boot Animation, Fehlerberichte, Rotation, Eingabemethoden etc.</string>
+    <string name="header_summary_general_ui">Boot Animation, Rotation, Eingabemethoden etc.</string>
     <string name="header_summary_navigation_bar">Anzuzeigende Buttons, Farbe, Reihenfolge</string>
     <string name="header_summary_lockscreens">Starten von eigenen Apps, Layout</string>
     <string name="header_summary_power_menu">An-/Aus-Schalter-Menü bearbeiten</string>
@@ -103,8 +103,6 @@
 
     <string name="disable_bootanimation_title">Boot-Animation deaktivieren</string>
     <string name="disable_bootanimation_summary">Deaktiviert die ROM-Animation beim Startvorgang.</string>
-
-    <string name="disable_bugmailer_title">Fehlerberichte deaktivieren</string>
 
     <string name="lcd_density_title">LCD Pixeldichte</string>
     <string name="lcd_density_summary">unbekannt</string>

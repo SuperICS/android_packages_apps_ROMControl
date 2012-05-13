@@ -23,7 +23,7 @@
     <string name="signal">Señal</string>
     
     <string name="header_summary_battery">Batería, % batería mod, etc</string>
-    <string name="header_summary_general_ui">Boot animation, bug mailer, rotación, cambio teclado, etc</string>
+    <string name="header_summary_general_ui">Boot animation, rotación, cambio teclado, etc</string>
     <string name="header_summary_navigation_bar">Botones para mostrar, color barra de navegación, orden</string>
     <string name="header_summary_lockscreens">Aplicaciones personalizadas para lanzar, diseño</string>
     <string name="header_summary_power_menu">Qué va a mostrar en el menú Power</string>
@@ -106,8 +106,6 @@
 	<string name="disable_bootanimation_title">Desactivar boot animation</string>
 	<string name="disable_bootanimation_summary">Permite desactivar la animación al encendido</string>
 	
-	<string name="disable_bugmailer_title">Desactivar bugmailer</string>
-
 	<string name="lcd_density_title">Densidad LCD</string>
 	<string name="lcd_density_summary">unknown</string>
 

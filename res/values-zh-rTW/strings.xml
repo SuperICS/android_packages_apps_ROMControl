@@ -18,7 +18,7 @@
     <string name="weather">天氣設定</string>
     <string name="signal">手機訊號</string>
     <string name="header_summary_battery">設定電量線條、1% 電量模式等。</string>
-    <string name="header_summary_general_ui">選擇關閉開機動畫、蟲蟲回報，設定啟用螢幕翻轉、輸入法切換等。</string>
+    <string name="header_summary_general_ui">選擇關閉開機動畫、設定啟用螢幕翻轉、輸入法切換等。</string>
     <string name="header_summary_navigation_bar">設定顯示虛擬鍵，及其顏色與順序。</string>
     <string name="header_summary_lockscreens">自訂啟動應用程式與擺設位置。</string>
     <string name="header_summary_power_menu">選擇電源鍵功能表顯示項目。</string>
@@ -81,7 +81,6 @@
     <string name="horizontal_recents_task_panel_summary">使用 WebOS 風格工作列。更改後將重啟系統介面，過程約 10 秒。若未切換成功，請重啟手機。</string>
     <string name="disable_bootanimation_title">關閉開機動畫</string>
     <string name="disable_bootanimation_summary">如果你覺得醜的話。呵哈！</string>
-    <string name="disable_bugmailer_title">關閉蟲蟲回報功能</string>
     <string name="lcd_density_title">螢幕解析度</string>
     <string name="lcd_density_summary">unknown</string>
     <string name="crt_animations_header">CRT 動畫</string>

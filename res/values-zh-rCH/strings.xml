@@ -21,7 +21,7 @@
     <string name="signal">信号</string>
 
     <string name="header_summary_battery">电量栏, 数字电量等</string>
-    <string name="header_summary_general_ui">开机动画, bug 邮件反馈, 旋转, 输入法等</string>
+    <string name="header_summary_general_ui">开机动画, 旋转, 输入法等</string>
     <string name="header_summary_navigation_bar">要显示的按钮, 虚拟栏颜色, 顺序</string>
     <string name="header_summary_lockscreens">锁屏界面启动程序, 布局</string>
     <string name="header_summary_power_menu">电源菜单显示内容</string>
@@ -80,8 +80,6 @@
 
 	<string name="disable_bootanimation_title">禁用启动动画</string>
 	<string name="disable_bootanimation_summary">你真坏.</string>
-
-	<string name="disable_bugmailer_title">禁用bug邮件反馈</string>
 
 	<string name="lcd_density_title">LCD 密度</string>
 	<string name="lcd_density_summary">unknown</string>

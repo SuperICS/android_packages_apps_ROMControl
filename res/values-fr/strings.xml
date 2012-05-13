@@ -19,7 +19,7 @@
     <string name="tools">Outils</string>
         
     <string name="header_summary_battery">Batterie bar, mod batterie 1%, etc</string>
-    <string name="header_summary_general_ui">Animation de démarrage, bug mailer, la rotation, etc</string>
+    <string name="header_summary_general_ui">Animation de démarrage, la rotation, etc</string>
     <string name="header_summary_navigation_bar">Boutons d\'affichage, couleur barre de nav., ordre</string>
     <string name="header_summary_lockscreens">Paramètrer les app. du lockscreen, disposition</string>
     <string name="header_summary_power_menu">Quoi afficher dans le menu alimentation</string>
@@ -74,8 +74,6 @@
     <string name="disable_bootanimation_title">Désactiver l\'animation du démarrage</string>
     <string name="disable_bootanimation_summary">Imbécile.</string>
 	
-    <string name="disable_bugmailer_title">Désactiver bugmailer</string>
-
     <string name="lcd_density_title">Densité du LCD</string>
     <string name="lcd_density_summary">N/A</string>
 	

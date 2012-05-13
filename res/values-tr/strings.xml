@@ -18,7 +18,7 @@
     <string name="weather">Hava Durumu</string>
     <string name="signal">Sinyal</string>
     <string name="header_summary_battery">Pil çubuğu, 1% pil modu, vs</string>
-    <string name="header_summary_general_ui">Açılış animasyonu, hata raporu, dönüş, IME değiştirici, vs</string>
+    <string name="header_summary_general_ui">Açılış animasyonu, dönüş, IME değiştirici, vs</string>
     <string name="header_summary_navigation_bar">Gösterilecek tuşlar, yazılımsal tuş rengi, sırası</string>
     <string name="header_summary_lockscreens">Gösterilecek özel uygulamalar, düzen</string>
     <string name="header_summary_power_menu">Güç menüsünde gösterilecekler</string>
@@ -60,7 +60,6 @@
     <string name="horizontal_recents_task_panel_summary">WebOS tarzı görev yöneticisi kullan. Arayüz yeniden başlatınca etkilenecek. 10 sn içinde gelmeli. Eğer gelmezse Güç menüsünden yeniden başlatın.</string>
     <string name="disable_bootanimation_title">Açılış animasyonunu kapat</string>
     <string name="disable_bootanimation_summary">Jerk.</string>
-    <string name="disable_bugmailer_title">Hata Raporunu kapat</string>
     <string name="lcd_density_title">LCD Yoğunluğu</string>
     <string name="lcd_density_summary">bilinmeyen</string>
     <string name="crt_animations_header">CRT animasyonu</string>

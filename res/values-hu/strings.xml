@@ -19,7 +19,7 @@
     <string name="tools">Eszközök</string>
     
     <string name="header_summary_battery">Akku sáv, 1% Akku mod, etc</string>
-    <string name="header_summary_general_ui">Boot animáció, hibajelentés, forgatás, IME váltó, etc</string>
+    <string name="header_summary_general_ui">Boot animáció, forgatás, IME váltó, etc</string>
     <string name="header_summary_navigation_bar">Gombok, nav. sáv színe, sorrend</string>
     <string name="header_summary_lockscreens">Saját alkalmazások, elrendezés</string>
     <string name="header_summary_power_menu">Mi látszódjon az energiatakarékos menüben</string>
@@ -73,8 +73,6 @@
 	
 	<string name="disable_bootanimation_title">Boot animáció kikapcsolása</string>
 	<string name="disable_bootanimation_summary">Faszkalap!</string>
-	
-	<string name="disable_bugmailer_title">Hibajelentés kikapcsolása</string>
 	
 	<!-- CRT animations -->
 	<string name="crt_animations_header">CRT animációk</string>
