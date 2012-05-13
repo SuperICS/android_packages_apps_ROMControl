@@ -47,8 +47,10 @@ public class UserInterface extends AOKPPreferenceFragment implements
     CheckBoxPreference mEnableVolumeOptions;
     CheckBoxPreference mLongPressToKill;
     CheckBoxPreference mAllow180Rotation;
+    CheckBoxPreference mDisableBootAudio;
     Preference mCustomLabel;
     ListPreference mAnimationRotationDelay;
+    ListPreference mRecentAppSwitcher;
     ListPreference mHomeLongpress;
     Preference mLcdDensity;
 
