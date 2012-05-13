@@ -101,8 +101,6 @@
     <string name="horizontal_recents_task_panel_title">Horizontaler Task-Bildschirm</string>
     <string name="horizontal_recents_task_panel_summary">WebOS-Aussehen für den Task-Wechsler. Die Benutzeroberfläche wird neu starten und in 10 Sekunden wieder erscheinen. Falls nicht, führe ein Neustart durch.</string>
 
-    <string name="disable_bootanimation_title">Boot-Animation deaktivieren</string>
-    <string name="disable_bootanimation_summary">Deaktiviert die ROM-Animation beim Startvorgang.</string>
 
     <string name="lcd_density_title">LCD Pixeldichte</string>
     <string name="lcd_density_summary">unbekannt</string>

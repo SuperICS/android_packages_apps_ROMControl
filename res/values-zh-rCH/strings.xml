@@ -78,8 +78,6 @@
 	<string name="horizontal_recents_task_panel_title">横向显示近期任务窗口</string>
 	<string name="horizontal_recents_task_panel_summary">使用 WebOS 风格的程序切换窗口. 大概需要10秒时间来应用改变. 若未改变成功，请重启.</string>
 
-	<string name="disable_bootanimation_title">禁用启动动画</string>
-	<string name="disable_bootanimation_summary">你真坏.</string>
 
 	<string name="lcd_density_title">LCD 密度</string>
 	<string name="lcd_density_summary">unknown</string>

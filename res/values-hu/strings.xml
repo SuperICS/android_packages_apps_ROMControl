@@ -71,8 +71,6 @@
 	<string name="horizontal_recents_task_panel_title">Vízszintes alkalmazásváltó</string>
 	<string name="horizontal_recents_task_panel_summary">WebOS stílusú váltó használata. A felhasználói felület kb. 10 mp alatt újraindul, ha nem, indítsd újra a készüléket!</string>
 	
-	<string name="disable_bootanimation_title">Boot animáció kikapcsolása</string>
-	<string name="disable_bootanimation_summary">Faszkalap!</string>
 	
 	<!-- CRT animations -->
 	<string name="crt_animations_header">CRT animációk</string>

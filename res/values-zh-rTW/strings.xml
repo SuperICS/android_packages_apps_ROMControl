@@ -79,8 +79,6 @@
     <string name="rotate_180_summary">啟用螢幕 180° 垂直翻轉功能。</string>
     <string name="horizontal_recents_task_panel_title">橫向顯示</string>
     <string name="horizontal_recents_task_panel_summary">使用 WebOS 風格工作列。更改後將重啟系統介面，過程約 10 秒。若未切換成功，請重啟手機。</string>
-    <string name="disable_bootanimation_title">關閉開機動畫</string>
-    <string name="disable_bootanimation_summary">如果你覺得醜的話。呵哈！</string>
     <string name="lcd_density_title">螢幕解析度</string>
     <string name="lcd_density_summary">unknown</string>
     <string name="crt_animations_header">CRT 動畫</string>

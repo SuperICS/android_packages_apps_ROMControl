@@ -51,7 +51,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
     ListPreference mAnimationRotationDelay;
     ListPreference mHomeLongpress;
     Preference mLcdDensity;
-    CheckBoxPreference mDisableBootAnimation;
 
     String mCustomLabelText = null;
     int newDensityValue;
@@ -114,11 +113,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
         }
 
         mLcdDensity.setSummary("Current LCD Density: " + currentProperty);
-
-        mDisableBootAnimation = (CheckBoxPreference) findPreference("disable_bootanimation");
-        mDisableBootAnimation.setChecked(!new File("/system/media/bootanimation.zip").exists());
-        if (mDisableBootAnimation.isChecked())
-            mDisableBootAnimation.setSummary(R.string.disable_bootanimation_summary);
 
         mDisableBootAudio = (CheckBoxPreference) findPreference("disable_bootaudio");
         
@@ -238,23 +232,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ACCELEROMETER_ROTATION_ANGLES, checked ? (1 | 2 | 4 | 8)
                             : (1 | 2 | 8));
-            return true;
-
-        } else if (preference == mDisableBootAnimation) {
-            boolean checked = ((CheckBoxPreference) preference).isChecked();
-            if (checked) {
-                Helpers.getMount("rw");
-                new CMDProcessor().su
-                        .runWaitFor("mv /system/media/bootanimation.zip /system/media/bootanimation.unicorn");
-                Helpers.getMount("ro");
-                preference.setSummary(R.string.disable_bootanimation_summary);
-            } else {
-                Helpers.getMount("rw");
-                new CMDProcessor().su
-                        .runWaitFor("mv /system/media/bootanimation.unicorn /system/media/bootanimation.zip");
-                Helpers.getMount("ro");
-                preference.setSummary("");
-            }
             return true;
 
         } else if (preference == mDisableBootAudio) {

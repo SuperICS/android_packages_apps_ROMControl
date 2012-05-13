@@ -71,8 +71,6 @@
     <string name="horizontal_recents_task_panel_title">Fenêtres récentes en horizontales</string>
     <string name="horizontal_recents_task_panel_summary">Utiliser le style de WebOS pour le changeur de tache. Votre interface utilisateur va redémarrer après avoir changer cette option. Il reviendra sous 10 secondes. Si ce n\'est pas le cas, redémarrer votre téléphone.</string>
 	
-    <string name="disable_bootanimation_title">Désactiver l\'animation du démarrage</string>
-    <string name="disable_bootanimation_summary">Imbécile.</string>
 	
     <string name="lcd_density_title">Densité du LCD</string>
     <string name="lcd_density_summary">N/A</string>
