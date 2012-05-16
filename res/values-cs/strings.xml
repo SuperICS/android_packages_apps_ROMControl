@@ -102,9 +102,6 @@
   <string name="recent_app_switcher_summary">Změnit styl přepínače aplikací (vyžaduje restart UI)</string>
 	
 	
-  <string name="disable_bootaudio_title">Vypnout startovací zvuk</string>
-	<string name="disable_bootaudio_summary">Ticho!</string>
-	<string name="disable_bootaudio_summary_disabled">Pro zapnutí startovacího zvuku musí být MP3 soubor umístěn v \n/system/media/boot_audio.mp3</string>
 	<string name="lcd_density_title">Hustota displeje</string>
 	<string name="lcd_density_summary">Kolik bodů na palec se zobrazuje</string>
 	

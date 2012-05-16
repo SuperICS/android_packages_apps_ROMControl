@@ -111,9 +111,6 @@
 	<string name="horizontal_recents_task_panel_summary">Use webOS style for recent apps. Requieres UI restart after this. If doesn\'t work, reboot device.</string>
 
 
-	<string name="disable_bootaudio_title">Disable boot audio</string>
-	<string name="disable_bootaudio_summary">Quiet.</string>
-	<string name="disable_bootaudio_summary_disabled">To enable boot audio, you must have an MP3 file at \n/system/media/boot_audio.mp3</string>
 
 	<string name="lcd_density_title">LCD Density</string>
 	<string name="lcd_density_summary">unknown</string>
