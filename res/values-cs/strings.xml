@@ -95,8 +95,6 @@
 	<string name="longpress_to_kill_summary">Podržení tlačítka zpět ukončí (killne) aktuální aplikaci</string>
   <string name="enable_volume_options">Zapnout volby hlasitosti</string>
 	
-	<string name="rotate_180_title">Umožnit rotaci o 180°</string>
-	<string name="rotate_180_summary">Umožnit zařízení úplně obracet obrazovku!</string>
 
   <string name="recent_app_switcher_title">Styl přepínače aplikací</string>
   <string name="recent_app_switcher_summary">Změnit styl přepínače aplikací (vyžaduje restart UI)</string>

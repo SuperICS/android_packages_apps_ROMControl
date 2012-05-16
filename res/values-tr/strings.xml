@@ -54,8 +54,6 @@
     <string name="longpress_to_kill_title">Geri tuşuna uzun basınca sonlandır</string>
     <string name="longpress_to_kill_summary">Geri tuşuna uzun basınca geçerli aktiviteyi sonlandır</string>
     <string name="enable_volume_options">Ses seçeneklerini etkinleştir</string>
-    <string name="rotate_180_title">180° Dönüşü geçerli yap</string>
-    <string name="rotate_180_summary">Kabul ederseniz cihazınız baş aşağı dönebilir</string>
     <string name="horizontal_recents_task_panel_title">Yatay son uygulamalar penceresi</string>
     <string name="horizontal_recents_task_panel_summary">WebOS tarzı görev yöneticisi kullan. Arayüz yeniden başlatınca etkilenecek. 10 sn içinde gelmeli. Eğer gelmezse Güç menüsünden yeniden başlatın.</string>
     <string name="lcd_density_title">LCD Yoğunluğu</string>

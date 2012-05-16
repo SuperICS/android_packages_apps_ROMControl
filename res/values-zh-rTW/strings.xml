@@ -75,8 +75,6 @@
     <string name="longpress_to_kill_title">長按返回鍵關閉程式</string>
     <string name="longpress_to_kill_summary">長按虛擬返回鍵關閉使用中程式。</string>
     <string name="enable_volume_options">啟用快速音量設定</string>
-    <string name="rotate_180_title">180° 翻轉螢幕</string>
-    <string name="rotate_180_summary">啟用螢幕 180° 垂直翻轉功能。</string>
     <string name="horizontal_recents_task_panel_title">橫向顯示</string>
     <string name="horizontal_recents_task_panel_summary">使用 WebOS 風格工作列。更改後將重啟系統介面，過程約 10 秒。若未切換成功，請重啟手機。</string>
     <string name="lcd_density_title">螢幕解析度</string>

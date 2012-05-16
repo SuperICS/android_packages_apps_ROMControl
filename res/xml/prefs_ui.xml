@@ -2,11 +2,6 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
-	<CheckBoxPreference
-		android:key="rotate_180"
-		android:title="@string/rotate_180_title"
-		android:summary="@string/rotate_180_summary" />
-
 	<ListPreference
 		android:key="recent_app_switcher"
 		android:title="@string/recent_app_switcher_title"

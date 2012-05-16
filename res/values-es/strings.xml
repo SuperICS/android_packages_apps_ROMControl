@@ -97,8 +97,6 @@
         
         <string name="enable_volume_options">Activar opciones de volumen</string>
 	
-	<string name="rotate_180_title">Permitir rotación 180º</string>
-	<string name="rotate_180_summary">Permite a tu dispositivo mostrar la pantalla hacia abajo</string>
 
 	<string name="recent_app_switcher_title">Estilo ventanas recientes</string>
 	<string name="recent_app_switcher_summary">Cambiar el estilo de ventanas (requiere reiniciar la interfaz de usuario)</string>

@@ -95,8 +95,6 @@
 
     <string name="enable_volume_options">Aktiviere Volumen Optionen</string>
 
-    <string name="rotate_180_title">180° Rotation erlauben</string>
-    <string name="rotate_180_summary">Erlaube Deinem Gerät eine 180° Rotation!</string>
 
     <string name="horizontal_recents_task_panel_title">Horizontaler Task-Bildschirm</string>
     <string name="horizontal_recents_task_panel_summary">WebOS-Aussehen für den Task-Wechsler. Die Benutzeroberfläche wird neu starten und in 10 Sekunden wieder erscheinen. Falls nicht, führe ein Neustart durch.</string>

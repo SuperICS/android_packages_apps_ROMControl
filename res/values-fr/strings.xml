@@ -65,8 +65,6 @@
     <string name="longpress_to_kill_title">Longue pression sur la touche Retour</string>
     <string name="longpress_to_kill_summary">"Rester appuyé sur la touche Retour pour quitter l'application (libérer de la RAM)"</string>
 	
-    <string name="rotate_180_title">Autoriser la rotation à 180°</string>
-    <string name="rotate_180_summary">Autorise l\'appareil à effectur une rotation compléte de l\'écran</string>
 
     <string name="horizontal_recents_task_panel_title">Fenêtres récentes en horizontales</string>
     <string name="horizontal_recents_task_panel_summary">Utiliser le style de WebOS pour le changeur de tache. Votre interface utilisateur va redémarrer après avoir changer cette option. Il reviendra sous 10 secondes. Si ce n\'est pas le cas, redémarrer votre téléphone.</string>

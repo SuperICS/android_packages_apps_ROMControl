@@ -65,8 +65,6 @@
 	<string name="longpress_to_kill_title">Vissza hosszan: kénysz. leáll.</string>
 	<string name="longpress_to_kill_summary">A vissza gomb hosszan lenntartása kényszerített leállítást végez a megnyitott alkalmazáson</string>
 	
-	<string name="rotate_180_title">180°-os forgatás engedélyezése</string>
-	<string name="rotate_180_summary">Fejjel lefelé forgatás!</string>
 
 	<string name="horizontal_recents_task_panel_title">Vízszintes alkalmazásváltó</string>
 	<string name="horizontal_recents_task_panel_summary">WebOS stílusú váltó használata. A felhasználói felület kb. 10 mp alatt újraindul, ha nem, indítsd újra a készüléket!</string>
