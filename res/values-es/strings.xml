@@ -145,7 +145,7 @@
     <string name="summary_lockscreen_user_timeout_override">Use esta opción para que al apagar la pantalla de forma manual tarde unos segunos en bloquear.</string>
     <string name="show_lock_before_unlock_title">Mostrar bloqueo antes de PIN/Patrón</string>
     <string name="show_lock_before_unlock_summary">Mostrar bloqueo normal antes del bloqueo de seguridad</string>
-    <string name="lockscreen_battery_title">Porcentaje batería en bloqeo</string>
+    <string name="lockscreen_battery_title">Porcentaje batería en bloqueo</string>
     <string name="lockscreen_battery_summary">Mostrar siempre el porcentaje de batería en la pantalla de bloqueo</string>
 	<string name="lockscreen_weather_title">Tiempo en bloqueo</string>
     <string name="lockscreen_weather_summary">Mostrar información del tiempo en pantalla de bloqueo. Necesitas activar el servicio de Tiempo en Opciones especiales</string>
