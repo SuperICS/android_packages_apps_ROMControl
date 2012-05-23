@@ -65,12 +65,12 @@
 		android:icon="@drawable/ic_rom_control_general"
 		android:summary="@string/header_summary_general" />
 
-	<header
+	<!--<header Disponible en Settings
 		android:id="@+id/statusbar_toggles"
 		android:fragment="com.aokp.romcontrol.fragments.StatusBarToggles"
 		android:title="@string/toggles_layout"
 		android:icon="@drawable/ic_rom_control_toggles"
-		android:summary="@string/header_summary_toggles" />
+		android:summary="@string/header_summary_toggles" />-->
 
 	<header
 		android:id="@+id/statusbar_clock"

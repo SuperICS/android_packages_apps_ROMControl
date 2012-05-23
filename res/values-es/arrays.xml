@@ -47,13 +47,11 @@
 		<item>12 horas</item>
 	</string-array>
 
-
 	<string-array name="pref_powersaving_sync_screen_off_entries">
 		<item>No hacer nada</item>
 		<item>Desactivar sincronización</item>
 		<item>Desactivar sinc. con retraso</item>
 	</string-array>
-
 	
 	<string-array name="powersaving_screen_off_wifi_entries">
 		<item>No hacer nada</item>
@@ -61,7 +59,6 @@
 		<item>Encender WIFI</item>
 	</string-array>
 
-	
 	<string-array name="powersaving_sync_data_mode_entries">
 		<item>No hacer nada</item>
 		<item>Solo WiFi</item>
@@ -69,12 +66,10 @@
 		<item>Solo datos</item>
 	</string-array>
 
-	
 	<string-array name="powersaving_sync_data_mobile_mode_entries">
 		<item>Solo 2G</item>
 		<item>3G preferido</item>
 	</string-array>
-	
 	
 	<string-array name="led_entries">
 		<item>0.5 segundos</item>
@@ -102,7 +97,6 @@
 		<item>Por defecto con iconos invisibles cuando están ocultos</item>
 	</string-array>
 
-
 	<string-array name="statusbar_transparency_entries">
 		<item>Sin transparencia</item>
 		<item>25%</item>
@@ -111,13 +105,11 @@
 		<item>Transparente</item>
 	</string-array>
 
-
 	<string-array name="statusbar_layout_entries">
 		<item>Normal</item>
 		<item>Invertido</item>
 		<item>Tradicional</item>
 	</string-array>
-
 
 	<!-- clock stuff -->
 	<string-array name="clock_style_entries">
@@ -138,7 +130,6 @@
 		<item>Normal</item>
 	</string-array>
 
-
 	<!-- Toggles -->
 
 	<string-array name="brightness_location_entries">
@@ -146,7 +137,6 @@
 		<item>Abajo</item>
 		<item>No mostrar</item>
 	</string-array>
-
 
 	<!-- animation rotation -->
 	<string-array name="rotation_animation_delay_entries">
@@ -161,13 +151,11 @@
 		<item>300 ms</item>
 	</string-array>
 
-
 	<!-- toggle style -->
 	<string-array name="toggle_style_entries">
 		<item>Solo icono</item>
 		<item>Solo texto</item>
 	</string-array>
-
 
 	<!-- long press home -->
 	<string-array name="long_press_home_entries">
@@ -177,7 +165,6 @@
 		<item>App personalizada</item>
 	</string-array>
 
-
         <string-array name="pref_lockscreen_options_entries">
 		<item>Stock</item>
 		<item>Cuatro accesos</item>
@@ -185,8 +172,7 @@
 		<item>AOSP</item>
 		<item>Honeycomb</item>
 	</string-array>
-	
-	
+
 	<string-array name="pref_lockscreen_calendar_interval_entries">
 	<item>1 segundo</item>
 	<item>1.5 segundos</item>
@@ -196,7 +182,6 @@
         <item>3.5 segundos</item>
         <item>4 segundos</item>
 	</string-array>
-	
 	
 	<string-array name="pref_lockscreen_calendar_range_entries">
 	<item>1 dia</item>
@@ -216,7 +201,6 @@
 		<item>100mb</item>
 	</string-array>
 
-	
 	<string-array name="battery_icon_entries">
 		<item>Solo icono</item>
 		<item>Solo texto</item>
@@ -225,7 +209,6 @@
 		<item>CircleMOD</item>
 		<item>Ocultar</item>
 	</string-array>
-
 
 	<string-array name="battery_bar_entries">
 		<item>Ocultar</item>
