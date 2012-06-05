@@ -107,7 +107,7 @@ public class UserInterface extends AOKPPreferenceFragment implements
             getPreferenceScreen().removePreference(mLcdDensity);
         }
 
-        mLcdDensity.setSummary("Current LCD Density: " + currentProperty);
+        mLcdDensity.setSummary(getResources().getString(R.string.current_lcd_density) + currentProperty);
 
         mHomeLongpress = (ListPreference) findPreference(PREF_HOME_LONGPRESS);
         mHomeLongpress.setOnPreferenceChangeListener(this);
@@ -186,7 +186,7 @@ public class UserInterface extends AOKPPreferenceFragment implements
             input.setText(mCustomLabelText != null ? mCustomLabelText : "");
             alert.setView(input);
 
-            alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            alert.setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int whichButton) {
                     String value = ((Spannable) input.getText()).toString();
                     Settings.System.putString(getActivity().getContentResolver(),
@@ -195,7 +195,7 @@ public class UserInterface extends AOKPPreferenceFragment implements
                 }
             });
 
-            alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            alert.setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int whichButton) {
                     // Canceled.
                 }

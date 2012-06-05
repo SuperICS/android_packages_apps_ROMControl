@@ -6,7 +6,7 @@
     <string name="user_interface">Interfaz de usuario</string>
     <string name="general_ui">Cambios visuales</string>
     <string name="lockscreen_options">Bloqueo de pantalla</string>
-    <string name="reset_lockscreen">Resetea wallpaper del lockscreen</string>
+    <string name="menu_lockscreens_remove_wallpaper">Resetea wallpaper del lockscreen</string>
     <string name="power_menu_optons">Botón de encendido</string>
     <string name="functionality">Funciones</string>
     <string name="power_saver">Ahorro de energía</string>
@@ -17,7 +17,8 @@
     <string name="clock">Reloj</string>
     <string name="battery">Batería</string>
     <string name="nav_bar">Botones inferiores</string>
-    <string name="reset_nav_bar">Resetea Nav Bar</string>
+    <string name="menu_nav_bar_reset">Reset nav bar</string>
+    <string name="navbar_widgets_reset">Resetea widgets</string>
     <string name="tools">Herramientas</string>
     <string name="weather">Tiempo</string>
     <string name="signal">Señal</string>
@@ -324,7 +325,7 @@
 	<string name="group_applications">Aplicaciones</string>
 	
 	<!-- Weather -->
-	<string name="get_weather">Actualiza tiempo</string>
+	<string name="menu_weather_get_weather">Actualiza tiempo</string>
 	<string name="weather_enable">Activa tiempo</string>
 	<string name="weather_enable_summary">Ya sea para mostrar la información meteorológica y mostrarla en todo el sistema.</string>
 	<string name="weather_use_custom_location">Usa localización personalizada</string>
