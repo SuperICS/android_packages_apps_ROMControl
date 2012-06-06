@@ -52,7 +52,7 @@
 		<item>Desactivar sincronización</item>
 		<item>Desactivar sinc. con retraso</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_screen_off_wifi_entries">
 		<item>No hacer nada</item>
 		<item>Apagar WIFI</item>
@@ -167,10 +167,14 @@
 
         <string-array name="pref_lockscreen_options_entries">
 		<item>Stock</item>
-		<item>Cuatro accesos</item>
-		<item>Ocho accesos</item>
 		<item>AOSP</item>
 		<item>Honeycomb</item>
+		<item>3 accesos</item>
+		<item>4 accesos</item>
+		<item>5 accesos</item>
+		<item>6 accesos</item>
+		<item>7 accesos</item>
+		<item>8 accesos</item>
 	</string-array>
 
 	<string-array name="pref_lockscreen_calendar_interval_entries">
