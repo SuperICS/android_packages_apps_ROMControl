@@ -1,16 +1,6 @@
 
 package com.aokp.romcontrol.fragments;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URISyntaxException;
-import java.util.ArrayList;
-
-import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -20,10 +10,10 @@ import android.content.DialogInterface.OnMultiChoiceClickListener;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Point;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -46,13 +36,23 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Toast;
 
 import com.aokp.romcontrol.AOKPPreferenceFragment;
 import com.aokp.romcontrol.R;
 import com.aokp.romcontrol.util.ShortcutPickerHelper;
 import com.aokp.romcontrol.widgets.LockscreenItemPreference;
+
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
 
 public class Lockscreens extends AOKPPreferenceFragment implements
         ShortcutPickerHelper.OnPickListener, OnPreferenceChangeListener {
@@ -284,8 +284,10 @@ public class Lockscreens extends AOKPPreferenceFragment implements
             int width = getActivity().getWallpaperDesiredMinimumWidth();
             int height = getActivity().getWallpaperDesiredMinimumHeight();
             Display display = getActivity().getWindowManager().getDefaultDisplay();
-            float spotlightX = (float) display.getWidth() / width;
-            float spotlightY = (float) display.getHeight() / height;
+            Point spotlight = new Point();
+            display.getSize(spotlight);
+            float spotlightX = (float) spotlight.x / width;
+            float spotlightY = (float) spotlight.y / height;
 
             Intent intent = new Intent(Intent.ACTION_GET_CONTENT, null);
             intent.setType("image/*");
@@ -407,12 +409,8 @@ public class Lockscreens extends AOKPPreferenceFragment implements
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
         switch (item.getItemId()) {
             case R.id.remove_wallpaper:
-                File f = new File(mContext.getFilesDir(), WALLPAPER_NAME);
-                Log.e(TAG, mContext.deleteFile(WALLPAPER_NAME) + "");
-                Log.e(TAG, mContext.deleteFile(WALLPAPER_NAME) + "");
                 return true;
             default:
                 return super.onContextItemSelected(item);
@@ -441,8 +439,6 @@ public class Lockscreens extends AOKPPreferenceFragment implements
         targetGroup.removeAll();
 
         PackageManager pm = mContext.getPackageManager();
-        Resources res = mContext.getResources();
-
         for (int i = 0; i < lockscreenTargets; i++) {
             LockscreenItemPreference p = new LockscreenItemPreference(getActivity());
             String dialogTitle = String.format(
@@ -623,7 +619,6 @@ public class Lockscreens extends AOKPPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        boolean handled = false;
         if (preference == mLockscreenOption) {
             int val = Integer.parseInt((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
