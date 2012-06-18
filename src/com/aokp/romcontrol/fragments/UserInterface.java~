@@ -51,10 +51,14 @@ public class UserInterface extends AOKPPreferenceFragment implements
     ListPreference mRecentAppSwitcher;
     ListPreference mHomeLongpress;
     Preference mLcdDensity;
+<<<<<<< HEAD
+=======
     CheckBoxPreference mDisableBootAnimation;
     CheckBoxPreference mDisableBootAudio;
     CheckBoxPreference mDisableBugMailer;
+    ListPreference mRecentAppSwitcher;
     ListPreference mAnnoyingNotifications;
+>>>>>>> 77d75788143c0508b0372a7c3450f139f181e45d
 
     String mCustomLabelText = null;
     int newDensityValue;

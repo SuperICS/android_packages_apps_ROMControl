@@ -49,6 +49,10 @@
     <string name="navigation_bar_height_title">Alto de barra de navegación</string>
     <string name="navigation_bar_width_title">Ancho de barra de Navigation</string>
 
+    <string name="navigation_bar_add_new_widget_title">Añadir nuevo widget</string>
+    <string name="navigation_bar_add_new_widget_summary">Presiona para añadir un nuevo widget</string>
+    <string name="navigation_bar_widget">"Widget "</string>
+
     <string name="title_pref_navigation_menu_display">Visibilidad de menú</string>
     <string name="summary_pref_navigation_menu_display">¿Cómo y cuándo desea que los botones de menú aparezcan?</string>
 

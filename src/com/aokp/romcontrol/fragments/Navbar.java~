@@ -318,8 +318,13 @@ public class Navbar extends AOKPPreferenceFragment implements
         		PreferenceGroup targetGroup = (PreferenceGroup) findPreference("navbar_widgets");
         		Preference p = new Preference(mContext);
         		p.setKey("navbar_widget_add");
+<<<<<<< HEAD
+                p.setTitle("Añadir nuevo widget");
+                p.setSummary("Presiona para añadir otro widget");
+=======
                 p.setTitle(getResources().getString(R.string.navigation_bar_add_new_widget_title));
                 p.setSummary(getResources().getString(R.string.navigation_bar_add_new_widget_summary));
+>>>>>>> 77d75788143c0508b0372a7c3450f139f181e45d
                 targetGroup.addPreference(p);
                 mPendingWidgetDrawer = mWidgetIdQty;    
         		mPendingPreference = preference;
@@ -702,8 +707,13 @@ public class Navbar extends AOKPPreferenceFragment implements
         widgetIds[mWidgetIdQty] = -1;
         Preference p = new Preference(mContext);
         p.setKey("navbar_widget_add");
+<<<<<<< HEAD
+        p.setTitle("Añadir nuevo widget");
+        p.setSummary("Presiona para añadir otro widget");
+=======
         p.setTitle(getResources().getString(R.string.navigation_bar_add_new_widget_title));
         p.setSummary(getResources().getString(R.string.navigation_bar_add_new_widget_summary));
+>>>>>>> 77d75788143c0508b0372a7c3450f139f181e45d
         targetGroup.addPreference(p);
 
     }
